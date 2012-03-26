@@ -29,7 +29,7 @@
 			position: relative;
 			width: 900px;
 		}
-		#portfolio ul {
+		#portfolio ul.works {
 			float: left;
 			list-style: none;
 		}
@@ -48,6 +48,9 @@
 			position: relative;
 			width: 100%;
 			float: left;
+		}
+		#portfolio ul.works .effort {
+			display: none;
 		}
 		#contact {
 			background-color: #000;
@@ -81,45 +84,16 @@
 
 	<div id="portfolio">
 		<div class="centered">
-			<ul>
+			<ul class="works">
 				<li>
 					<image src="img/portfolio/prueba.jpg">
 					<h3><a href="http://culturactiva.org">www.culturactiva.org</a></h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+					<p class="description">
+						Coperactiva Cultural - Culturactiva SCG es en la actualidad 
+						la distribuidora l&iacute;der en Galicia de teatro c&oacute;mico y de calle.
 					</p>
-				</li>
-				<li>
-					<image src="img/portfolio/prueba.jpg">
-					<h3>wwww.titulo.com</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
-					</p>
-				</li>
-				<li>
-					<image src="img/portfolio/prueba.jpg">
-					<h3>wwww.titulo.com</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
-					</p>
-				</li>
-				<li>
-					<image src="img/portfolio/prueba.jpg">
-					<h3>wwww.titulo.com</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+					<p class="effort">
+						15 sprints de 40 pomodoros
 					</p>
 				</li>
 			</ul>
