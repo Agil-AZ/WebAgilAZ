@@ -41,10 +41,42 @@
 		#slogan {
 			cursor: default;
 			font-size: 34px;
+			height: 100px;
 			margin: auto;
 			margin-bottom: 10px;
 			text-align: left;
 			width: 800px;
+		}
+		#values {
+			color: #444;
+			cursor: default;
+			font-size: 22px;
+			margin: auto;
+			position: absolute;
+			text-align: left;
+			top: 350px;
+			width: 900px;
+		}
+		#values ul {
+			list-style: none;
+			float: right;
+			position: relative;
+			top: 0px;
+		}
+		#values ul li {
+			background-color: #fff;
+			float: none;
+			margin-top: -20px;
+			text-align: right;
+		}
+		#values ul li:hover {
+			color: #000;
+			cursor: pointer;
+		}
+		#values ul li img {
+			border: 1px solid #000;
+			margin-left: 10px;
+			width: 20px;
 		}
 		.centered {
 			margin: auto;
@@ -146,7 +178,12 @@
 
 	<div id="slogan">Hacemos software a medida.</div>
 
-	<div id="values"></div>
+	<div id="values">
+		<ul>
+			<li><a href="http://agilemanifesto.org/">Manifiesto &aacute;gil<img src="img/checked.png"></a></li>
+			<li><a href="http://es.wikipedia.org/wiki/Software_libre">Software libre<img src="img/checked.png"></a></li>
+		</ul>
+	</div>
 
 	<div id="portfolio">
 		<div class="centered">
