@@ -5,7 +5,6 @@
 		body {
 			width: 100%;
 			margin: auto;
-			text-align: center;
 			padding-top: 30px;
 		}
 		h2 {
@@ -17,10 +16,21 @@
 			font-size: 14;
 			font-weight: bold;
 			margin: 0px;
+			height: 20px;
+			line-height: 20px;
+		}
+		h3 a {
+			color: #600;
+			text-decoration: none;
+		}
+		h3 a:hover {
+			color: #a00;
+			text-decoration: underline;
 		}
 		p {
 			font-size: 14;
 			margin: 0px;
+			text-align: justify;
 		}
 		#logo {
 			background: url('img/logo/logo_830x300.png') top center no-repeat;
@@ -51,9 +61,20 @@
 			margin: 5px;
 			padding: 10px;
 			width: 250px;
+			height: 250px;
+			text-align: center;
+		}
+		ul li img {
+			width: 200px;
+			height: 150px;
+			border: 1px solid #bbb;
+			margin: 15px 0px 11px 0px;
 		}
 		ul li p {
 			font-size: 12px;
+		}
+		p.description {
+			height: 40px;
 		}
 		#portfolio {
 			background-color: #bbb;
@@ -61,7 +82,7 @@
 			width: 100%;
 			float: left;
 		}
-		.effort {
+		p.effort {
 			display: none;
 		}
 		#collaborators {
@@ -128,11 +149,11 @@
 	<div id="values"></div>
 
 	<div id="portfolio">
-		<h1>Working on...</h1>
 		<div class="centered">
+			<h1>Working on...</h1>
 			<ul>
 				<li>
-					<image src="img/portfolio/culturactiva.png">
+					<img src="img/portfolio/culturactiva.png">
 					<h3><a href="http://culturactiva.org">www.culturactiva.org</a></h3>
 					<p class="description">
 						Coperactiva Cultural - Culturactiva SCG es en la actualidad 
@@ -143,12 +164,11 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/campus-do-mar.png">
+					<img src="img/portfolio/campus-do-mar.png">
 					<h3><a href="http://campusdomar.es/?page_id=1019">Campus do Mar</a></h3>
 					<p class="description">
-						Plataforma que permite gestionar los usuarios y grupos de investigaci&oacute;n 
-						de los distintos Campus, autenticando contra un LDAP distribuido, 
-						con gesti&oacute;n de la comunicaci&oacute;n y permisos de diferentes aplicaciones 
+						Plataforma de gesti&oacute;n de usuarios y grupos de investigaci&oacute;n 
+						de distintos Campus, comunicaci&oacute;n y permisos de diferentes aplicaciones 
 						verticales que se pueden a&ntilde;adir en caliente. 
 					</p>
 					<p class="effort">
@@ -156,7 +176,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/crechas.png">
+					<img src="img/portfolio/crechas.png">
 					<h3><a href="http://www.casadascrechas.com/">www.casadascrechas.com</a></h3>
 					<p class="description">
 					</p>
@@ -164,7 +184,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/mago-teto.png">
+					<img src="img/portfolio/mago-teto.png">
 					<h3><a href="http://www.magoteto.com/">www.magoteto.com</a></h3>
 					<p class="description">
 					</p>
@@ -172,7 +192,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/ingenieria-rias-baixas.png">
+					<img src="img/portfolio/ingenieria-rias-baixas.png">
 					<h3><a href="http://www.ingenieriariasbaixas.com/">www.ingenieriariasbaixas.com</a></h3>
 					<p class="description">
 					</p>
@@ -180,7 +200,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/ibi.png">
+					<img src="img/portfolio/ibi.png">
 					<h3><a href="http://webs.uvigo.es/ibivigo/">IBI</a></h3>
 					<p class="description">
 					</p>
@@ -188,7 +208,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/in1.png">
+					<img src="img/portfolio/in1.png">
 					<h3><a href="http://webs.uvigo.es/inmunologia/">Grupo Inmunolog&iacute;a IN1</a></h3>
 					<p class="description">
 					</p>
@@ -196,7 +216,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/hacienda.png">
+					<img src="img/portfolio/hacienda.png">
 					<h3><a href="http://www.salalahacienda.com/">www.salalahacienda.com</a></h3>
 					<p class="description">
 					</p>
@@ -204,7 +224,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/polirros.png">
+					<img src="img/portfolio/polirros.png">
 					<h3><a href="http://www.polirros.com/">www.polirros.com</a></h3>
 					<p class="description">
 					</p>
@@ -212,7 +232,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/vinclan.png">
+					<img src="img/portfolio/vinclan.png">
 					<h3><a href="http://colexiovalleinclan.com/">www.colexiovalleinclan.com</a></h3>
 					<p class="description">
 						Joomla/PHP, con m&oacute;dulos a medida para la parte privada 
@@ -223,7 +243,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/tecendo-redes.png">
+					<img src="img/portfolio/tecendo-redes.png">
 					<h3><a href="http://tecendoredes.es/">www.tecendoredes.es</a></h3>
 					<p class="description">
 						Dise&ntilde;o y restructuraci&oacute;n de web basado en una administraci&oacute;n existente en PHP. 
@@ -233,7 +253,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/sobreiras-do-faro.png">
+					<img src="img/portfolio/sobreiras-do-faro.png">
 					<h3><a href="http://sobreirasdofaro.com/">www.sobreirasdofaro.com</a></h3>
 					<p class="description">
 						Web completa a partir de un dise&ntilde;o de cartel, 
@@ -245,7 +265,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/enjoy.png">
+					<img src="img/portfolio/enjoy.png">
 					<h3><a href="http://www.enjoydanceclub.com/">www.enjoydanceclub.com</a></h3>
 					<p class="description">
 						Web con dise&ntilde;o a medida y administraci&oacute;n a medida (PHP) 
@@ -257,7 +277,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/troncoso.png">
+					<img src="img/portfolio/troncoso.png">
 					<h3><a href="http://www.troncoso.es/">www.troncoso.es</a></h3>
 					<p class="description">
 					</p>
@@ -265,7 +285,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/sing.png">
+					<img src="img/portfolio/sing.png">
 					<h3><a href="http://sing.ei.uvigo.es/">Grupo SING</a></h3>
 					<p class="description">
 					</p>
@@ -273,7 +293,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/ciber-obn.png">
+					<img src="img/portfolio/ciber-obn.png">
 					<h3><a href="http://www.ciberobn.es/">www.ciberobn.es</a></h3>
 					<p class="description">
 					</p>
@@ -281,7 +301,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/licentia.png">
+					<img src="img/portfolio/licentia.png">
 					<h3><a href="http://licentia.es/">www.licentia.es</a></h3>
 					<p class="description">
 					</p>
@@ -289,7 +309,7 @@
 					</p>
 				</li>
 				<li>
-					<image src="img/portfolio/electro-enfer.png">
+					<img src="img/portfolio/electro-enfer.png">
 					<h3><a href="http://electroenfer.com/">www.electroenfer.com</a></h3>
 					<p class="description">
 						Web con dise&ntilde;o a medida en PHP desde cero.
@@ -303,19 +323,19 @@
 	</div>
 
 	<div id="collaborators">
-		<h1>Usual collaborators...</h1>
 		<div class="centered">
+			<h1>Usual collaborators...</h1>
 			<ul>
 				<li>
-					<image src="img/collaborators/xavi.png">
+					<img src="img/collaborators/xavi.png">
 					<h3><a href="http://xavierbelho.org">Xavier Belho</a></h3>
 				</li>
 				<li>
-					<image src="img/collaborators/fer.png">
+					<img src="img/collaborators/fer.png">
 					<h3><a href="http://oncevaras.com">Fernando Lema</a></h3>
 				</li>
 				<li>
-					<image src="img/collaborators/miguel.png">
+					<img src="img/collaborators/miguel.png">
 					<h3><a href="http://miguelamenedo.com">Miguel Amenedo</a></h3>
 				</li>
 			</ul>
@@ -323,27 +343,27 @@
 	</div>
 
 	<div id="contributing">
-		<h1>Also contributing to...</h1>
 		<div class="centered">
+			<h1>Also contributing to...</h1>
 			<ul>
 				<li>
-					<image src="img/contributing/joomla.png">
+					<img src="img/contributing/joomla.png">
 					<h3><a href="https://github.com/joomla/joomla-cms">Joomla CMS</a></h3>
 				</li>
 				<li>
-					<image src="img/contributing/cuore.png">
+					<img src="img/contributing/cuore.png">
 					<h3><a href="https://github.com/beCodeMyFriend/Cuore.js">Cuore.js</a></h3>
 				</li>
 				<li>
-					<image src="img/contributing/desk-surfing.png">
+					<img src="img/contributing/desk-surfing.png">
 					<h3><a href="http://www.desk-surfing.org/">Desk-surfing.org</a></h3>
 				</li>
 				<li>
-					<image src="img/contributing/plqd.png">
+					<img src="img/contributing/plqd.png">
 					<h3><a href="http://plqd.blogspot.com.es/">Pienso lo que digo</a></h3>
 				</li>
 				<li>
-					<image src="img/contributing/obscura.png">
+					<img src="img/contributing/obscura.png">
 					<h3><a href="https://github.com/boxuk/obscura">Obscura, the PHP thumbnail library</a></h3>
 
 				</li>
