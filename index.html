@@ -42,7 +42,6 @@
 			cursor: default;
 			font-size: 34px;
 			height: 100px;
-			margin: auto;
 			margin-bottom: 10px;
 			text-align: left;
 			width: 800px;
@@ -52,7 +51,6 @@
 			cursor: default;
 			font-size: 22px;
 			margin: auto;
-			position: absolute;
 			text-align: left;
 			top: 350px;
 			width: 900px;
@@ -62,11 +60,11 @@
 			float: right;
 			position: relative;
 			top: 0px;
+			margin-top: -20px;
 		}
 		#values ul li {
 			background-color: #fff;
 			float: none;
-			margin-top: -20px;
 			text-align: right;
 		}
 		#values ul li:hover {
@@ -87,7 +85,7 @@
 			float: left;
 			list-style: none;
 		}
-		ul li {
+		#portfolio ul li {
 			background-color: #999;
 			float: left;
 			margin: 5px;
@@ -96,7 +94,7 @@
 			height: 250px;
 			text-align: center;
 		}
-		ul li img {
+		#portfolio ul li img {
 			width: 200px;
 			height: 150px;
 			border: 1px solid #bbb;
@@ -174,15 +172,17 @@
    	<link rel="icon" type="image/gif" href="img/favicon.gif">
 </head>
 <body>
-	<div id="logo"> </div>
+	<div id="company" class="centered">
+		<div id="logo"> </div>
 
-	<div id="slogan">Hacemos software a medida.</div>
+		<div id="slogan" class="centered">Hacemos software a medida.</div>
 
-	<div id="values">
-		<ul>
-			<li><a href="http://agilemanifesto.org/">Manifiesto &aacute;gil<img src="img/checked.png"></a></li>
-			<li><a href="http://es.wikipedia.org/wiki/Software_libre">Software libre<img src="img/checked.png"></a></li>
-		</ul>
+		<div id="values">
+			<ul>
+				<li><a href="http://agilemanifesto.org/">Manifiesto &aacute;gil<img src="img/checked.png"></a></li>
+				<li><a href="http://es.wikipedia.org/wiki/Software_libre">Software libre<img src="img/checked.png"></a></li>
+			</ul>
+		</div>
 	</div>
 
 	<div id="portfolio">
