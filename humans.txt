@@ -1,0 +1,38 @@
+/* TEAM */
+	Web designer: Eduardo Jose Alvarez Novoa
+	Twitter: @eanovoa
+	From: Vigo, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+	Standard Man: Pablo Vicente Carrera
+	Twitter: @pvcarrera
+	From: O Rosal, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+	Standard Man: Luis Roberto Janeiro Rodriguez
+	Twitter: @jarolu_
+	From: Ourense, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+	Standard Man: Pepe Doval Gonzalez
+	Twitter: @pepellou
+	From: Santiago de Compostela, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+	Standard Man: Daniel Lago Suarez
+	Twitter: @dlsuarez
+	From: Vigo, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+/* THANKS */
+
+	Criticizing friend: Ignacio Cid Gomez
+	Twitter: @ncidgomez
+	From: Ourense, Galicia, Spain
+	Works for: Parlamento de Galicia
+	
+/* SITE */
+	Last update: 2011/07/12
+	Language: Castellano
+	Doctype: HTML
+	IDE: vi, gimp
