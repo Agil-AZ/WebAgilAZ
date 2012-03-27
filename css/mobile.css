@@ -33,8 +33,8 @@ p.effort {
 	display: none;
 }
 ul {
-	float: left;
 	list-style: none;
+	padding: 0px;
 }
 ul li p {
 	font-size: 12px;
