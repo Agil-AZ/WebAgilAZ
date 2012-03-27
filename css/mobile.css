@@ -1,13 +1,13 @@
 body {
 	font-family: 'Exo', sans-serif;
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 10px;
 	width: 100%;
 }
 h1 {
 	color: #400;
-	font-size: 40px;
-	margin-top: 30px;
+	font-size: 20px;
+	margin-top: 10px;
 }
 h2 {
 	color: #000;
@@ -22,7 +22,7 @@ h3 {
 	margin: 0px;
 }
 p {
-	font-size: 14;
+	font-size: 15px;
 	margin: 0px;
 	text-align: justify;
 }
@@ -40,29 +40,29 @@ ul li p {
 	font-size: 12px;
 }
 #logo {
-	background: url('../img/logo/logo_830x300.png') top center no-repeat;
-	height: 300px;
+	background: url('../img/logo/logo_277x100.png') top center no-repeat;
+	height: 100px;
 	margin: auto;
-	width: 900px;
+	width: 300px;
 }
 #slogan {
 	cursor: default;
-	font-size: 40px;
+	font-size: 15px;
 	font-style: italic;
-	height: 100px;
-	margin-bottom: -40px;
-	margin-top: 20px;
+	height: 33px;
+	margin-bottom: 10px;
+	margin-top: 7px;
 	text-align: left;
-	width: 800px;
+	width: 300px;
 }
 #values {
 	color: #444;
 	cursor: default;
-	font-size: 22px;
+	font-size: 13px;
 	margin: auto;
 	text-align: left;
 	top: 350px;
-	width: 900px;
+	width: 300px;
 }
 #values ul {
 	float: right;
@@ -91,7 +91,7 @@ ul li p {
 #values ul li img {
 	border: 1px solid #000;
 	margin-left: 10px;
-	width: 20px;
+	width: 13px;
 }
 #portfolio {
 	background-color: #bbb;
@@ -101,7 +101,6 @@ ul li p {
 }
 #portfolio ul a {
 	text-decoration: none;
-
 }
 #portfolio ul li {
 	background-color: #999;
@@ -226,5 +225,5 @@ ul li p {
 .centered {
 	margin: auto;
 	position: relative;
-	width: 900px;
+	width: 300px;
 }
