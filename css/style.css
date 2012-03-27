@@ -40,10 +40,12 @@ ul li p {
 	font-size: 12px;
 }
 #logo {
-	background: url('../img/logo/logo_830x300.png') top center no-repeat;
 	height: 300px;
 	margin: auto;
 	width: 900px;
+}
+#logo img {
+	margin-left: 40px;
 }
 #slogan {
 	cursor: default;

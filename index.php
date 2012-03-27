@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div id="company" class="centered">
-		<div id="logo"> </div>
+		<div id="logo"><img src="img/logo/logo_830x300.png"></div>
 
 		<div id="slogan" class="centered">Hacemos software a medida</div>
 

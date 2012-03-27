@@ -1,4 +1,5 @@
 body {
+	font-size: medium;
 	font-family: 'Exo', sans-serif;
 	margin: auto;
 	padding-top: 10px;
@@ -6,12 +7,12 @@ body {
 }
 h1 {
 	color: #400;
-	font-size: 20px;
+	font-size: 100%;
 	margin-top: 10px;
 }
 h2 {
 	color: #000;
-	font-size: 24;
+	font-size: ;
 }
 h3 {
 	color: #fff;
@@ -27,7 +28,6 @@ p {
 	text-align: justify;
 }
 p.description {
-	height: 40px;
 }
 p.effort {
 	display: none;
@@ -37,39 +37,37 @@ ul {
 	padding: 0px;
 }
 ul li p {
-	font-size: 12px;
+	font-size: 1em;
 }
 #logo {
+	background-size: 90%;
 	background: url('../img/logo/logo_277x100.png') top center no-repeat;
-	height: 6em;
+	min-height: 300px;
 	margin: auto;
 	width: 100%;
 }
 #slogan {
 	cursor: default;
-	font-size: 15px;
+	font-size: 150%;
 	font-style: italic;
-	height: 33px;
 	margin-bottom: 10px;
 	margin-top: 7px;
-	text-align: left;
-	width: 300px;
+	text-align: center;
+	width: 100%;
 }
 #values {
 	color: #444;
 	cursor: default;
-	font-size: 13px;
+	font-size: 110%;
 	margin: auto;
 	text-align: left;
-	top: 350px;
-	width: 300px;
+	width: 100%;
 }
 #values ul {
 	float: right;
 	list-style: none;
-	margin-top: -20px;
+	margin-right:10%;
 	position: relative;
-	top: 0px;
 }
 #values ul li {
 	background-color: #fff;
