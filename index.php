@@ -1,3 +1,4 @@
+<?php include_once('mobile-detection.php'); ?>
 <html>
 <head>
 	<title>Agil-AZ S.L. | Desarrollo de software a medida</title>
