@@ -207,12 +207,21 @@ ul li p {
 #contact .logo-twitter {
 	position: absolute;
 	right: 10px;
-	top: 50px;
+	top: 0px;
+}
+#contact .logo-slow {
+	position: absolute;
+	right: 10px;
+	top: 65px;
+}
+#contact .logo-slow img {
+	width: 64px;
+	height: 64px;
 }
 #contact .logo-humanstxt {
 	position: absolute;
 	right: 10px;
-	top: 120px;
+	top: 125px;
 }
 .centered {
 	margin: auto;
