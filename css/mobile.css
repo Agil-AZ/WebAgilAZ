@@ -41,9 +41,9 @@ ul li p {
 }
 #logo {
 	background: url('../img/logo/logo_277x100.png') top center no-repeat;
-	height: 100px;
+	height: 6em;
 	margin: auto;
-	width: 300px;
+	width: 100%;
 }
 #slogan {
 	cursor: default;
@@ -106,12 +106,11 @@ ul li p {
 	background-color: #999;
 	border: 1px solid #999;
 	float: left;
-	height: 250px;
-	margin: 5px;
+	margin: 1em;
 	overflow: hidden;
-	padding: 10px;
 	text-align: center;
-	width: 250px;
+	padding: 2em;
+	width: 70%;
 }
 #portfolio ul li:hover {
 	border: 1px solid #600;
@@ -125,9 +124,8 @@ ul li p {
 }
 #portfolio ul li img {
 	border: 1px solid #bbb;
-	height: 150px;
 	margin: 15px 0px 11px 0px;
-	width: 200px;
+	width: 90%;
 }
 #portfolio ul li p {
 	color: #fff;
@@ -226,5 +224,5 @@ ul li p {
 .centered {
 	margin: auto;
 	position: relative;
-	width: 300px;
+	width: 100%;
 }
