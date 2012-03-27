@@ -1,11 +1,15 @@
-<?php include_once('mobile-detection.php'); ?>
+<?php require_once('mobile-detection.php'); ?>
 <html>
 <head>
 	<title>Agil-AZ S.L. | Desarrollo de software a medida</title>
 
 	<link rel="author" href="humans.txt">
    	<link rel="icon" type="image/gif" href="img/favicon.gif">
-   	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php if (is_mobile()) { ?>
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<?php } else { ?>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php } ?>
 
    	<link href='http://fonts.googleapis.com/css?family=Exo:400,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
 </head>
