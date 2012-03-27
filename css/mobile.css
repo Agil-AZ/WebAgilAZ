@@ -2,13 +2,13 @@ body {
 	font-size: medium;
 	font-family: 'Exo', sans-serif;
 	margin: auto;
-	padding-top: 10px;
+	padding-top: 3%;
 	width: 100%;
 }
 h1 {
 	color: #400;
-	font-size: 100%;
-	margin-top: 10px;
+	font-size: 120%;
+	margin-top: 3%;
 }
 h2 {
 	color: #000;
@@ -16,18 +16,15 @@ h2 {
 }
 h3 {
 	color: #fff;
-	font-size: 14;
+	font-size: 100%;
 	font-weight: bold;
-	height: 20px;
-	line-height: 20px;
-	margin: 0px;
+	line-height: 100%;
+	margin: auto;
 }
 p {
 	font-size: 15px;
 	margin: 0px;
 	text-align: justify;
-}
-p.description {
 }
 p.effort {
 	display: none;
@@ -49,10 +46,8 @@ ul li p {
 }
 #slogan {
 	cursor: default;
-	font-size: 150%;
+	font-size: 140%;
 	font-style: italic;
-	margin-bottom: 10px;
-	margin-top: 7px;
 	text-align: center;
 	width: 100%;
 }
@@ -89,8 +84,8 @@ ul li p {
 }
 #values ul li img {
 	border: 1px solid #000;
-	margin-left: 10px;
-	width: 13px;
+	margin-left: 0.3em;
+	width: 12%;
 }
 #portfolio {
 	background-color: #bbb;
@@ -107,8 +102,8 @@ ul li p {
 	float: left;
 	margin: 1em;
 	overflow: hidden;
-	text-align: center;
 	padding: 2em;
+	text-align: center;
 	width: 70%;
 }
 #portfolio ul li:hover {
@@ -123,7 +118,7 @@ ul li p {
 }
 #portfolio ul li img {
 	border: 1px solid #bbb;
-	margin: 15px 0px 11px 0px;
+	margin: 0% 0% 5% 0%;
 	width: 90%;
 }
 #portfolio ul li p {
@@ -132,15 +127,11 @@ ul li p {
 #collaborators {
 	background-color: #bbb;
 	float: left;
-	height: 250px;
 	width: 100%;
 }
-#collaborators ul li {
-	float: left;
-}
 #collaborators img {
-	height: 100px;
-	margin-right: 30px;
+	margin: 5% 30% 5% 30%;
+	width: 40%;
 }
 #collaborators img:hover {
 	opacity: 0.7;
@@ -151,15 +142,11 @@ ul li p {
 #contributing {
 	background-color: #bbb;
 	float: left;
-	height: 250px;
 	width: 100%;
 }
-#contributing ul li {
-	float: left;
-}
 #contributing img {
-	height: 100px;
-	margin-right: 30px;
+	margin: 5% 30% 5% 30%;
+	width: 40%;
 }
 #contributing img:hover {
 	opacity: 0.7;
@@ -171,54 +158,61 @@ ul li p {
 	background-color: #000;
 	color: #fff;
 	float: left;
-	font-size: 18px;
-	height: 155px;
-	padding-bottom: 20px;
-	padding-top: 10px;
+	font-size: 100%;
+	padding-bottom: 2%;
+	padding-top: 2%;
 	position: relative;
 	width: 100%;
 }
 #contact .mail a {
 	color: #a00;
+	margin-left: 4%;
 	text-decoration: none;
 }
 #contact .mail a:hover {
 	text-decoration: underline;
 }
 #contact .phone {
+	margin-left: 4%;
 	font-weight: bold;
 }
 #contact .address {
-	font-size: 24px;
-	margin-top: 2px;
+	font-size: 150%;
+	margin-left: 4%;
+	margin-top: 2%;
 }
 #contact .address a {
 	color: #fff;
-	font-size: 16px;
-	margin-top: 0px;
+	font-size: 70%;
+	margin-top: 3%;
 	text-decoration: none;
 }
 #contact .address a:hover {
 	text-decoration: underline;
 }
 #contact .logo-twitter {
-	position: absolute;
-	right: 210px;
-	top: 105px;
+	margin-left: 36%;
+	margin-top: 4%;
+	position: relative;
+}
+#contact .logo-twitter img {
+	width: 40%;
 }
 #contact .logo-slow {
-	position: absolute;
-	right: 125px;
-	top: 110px;
+	margin-left: 36%;
+	margin-top: 4%;
+	position: relative;
 }
 #contact .logo-slow img {
-	width: 64px;
-	height: 64px;
+	width: 40%;
 }
 #contact .logo-humanstxt {
-	position: absolute;
-	right: 10px;
-	top: 140px;
+	margin-left: 30%;
+	margin-top: 4%;
+	position: relative;
+}
+#contact .logo-humanstxt img {
+	width: 60%;
 }
 .centered {
 	margin: auto;
