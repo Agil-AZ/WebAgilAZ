@@ -36,8 +36,9 @@
 						<img src="img/portfolio/culturactiva.png">
 						<h3>www.culturactiva.org</h3>
 						<p class="description">
-							Coperactiva Cultural - Culturactiva SCG es en la actualidad 
-							la distribuidora l&iacute;der en Galicia de teatro c&oacute;mico y de calle.
+							Coperactiva Cultural - Culturactiva SCG es en 
+							la actualidad la distribuidora l&iacute;der en Galicia 
+							de teatro c&oacute;mico y de calle.
 						</p>
 						<p class="effort">
 							15 sprints de 40 pomodoros
@@ -49,9 +50,9 @@
 						<img src="img/portfolio/campus-do-mar.png">
 						<h3>Campus do Mar</h3>
 						<p class="description">
-							Plataforma de gesti&oacute;n de usuarios y grupos de investigaci&oacute;n 
-							de distintos Campus, comunicaci&oacute;n y permisos de diferentes aplicaciones 
-							verticales que se pueden a&ntilde;adir en caliente. 
+							Proyecto de las universidades gallegas, CSIC e IEO, 
+							que re&uacute;ne agentes socioecon&oacute;micos e
+							investigadores marinos de Galicia y Portugal.
 						</p>
 						<p class="effort">
 							12 sprints de 40 pomodoros.
@@ -63,6 +64,9 @@
 						<img src="img/portfolio/crechas.png">
 						<h3>www.casadascrechas.com</h3>
 						<p class="description">
+							Conocido pub del casco antiguo de Santiago. 
+							Buen ambiente, copas econ&oacute;micas y muy buena m&uacute;sica. 
+							Recomendado en todas las gu&iacute;as para visitantes a Santiago.
 						</p>
 						<p class="effort">
 						</p>
