@@ -100,11 +100,10 @@ ul li p {
 	background-color: #999;
 	border: 1px solid #999;
 	float: left;
-	margin: 1em;
+	margin: 0% 5% 5% 5%;
 	overflow: hidden;
-	padding: 2em;
 	text-align: center;
-	width: 70%;
+	width: 90%;
 }
 #portfolio ul li:hover {
 	border: 1px solid #600;
@@ -118,11 +117,12 @@ ul li p {
 }
 #portfolio ul li img {
 	border: 1px solid #bbb;
-	margin: 0% 0% 5% 0%;
+	margin: 5% 5% 5% 5%;
 	width: 90%;
 }
 #portfolio ul li p {
 	color: #fff;
+	padding: 5% 5% 5% 5%;
 }
 #collaborators {
 	background-color: #bbb;
