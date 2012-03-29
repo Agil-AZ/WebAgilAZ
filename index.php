@@ -301,10 +301,10 @@
 				15895 Ames, Milladoiro (A Coru&ntilde;a)
 				</a>
 			<div class="logo-twitter">
-				<a href="http://twitter.com/agil_az" target="_blank"><img src="img/logo_twitter.png"></a>
+				<a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a>
 			</div>
 			<div class="logo-slow">
-				<a href="slow-manifesto.html" target="_blank"><img src="img/slow.png"></a>
+				<a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a>
 			</div>
 			<div class="logo-humanstxt">
 				<a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a>
