@@ -215,17 +215,17 @@ ul li p {
 }
 #contact .logo-slow {
 	position: absolute;
-	right: 10px;
-	top: 65px;
+	right: 9px;
+	top: 42px;
 }
 #contact .logo-slow img {
-	width: 64px;
-	height: 64px;
+	width: 96px;
+	height: 96px;
 }
 #contact .logo-humanstxt {
 	position: absolute;
-	right: 10px;
-	top: 125px;
+	right: 14px;
+	top: 144px;
 }
 .centered {
 	margin: auto;
