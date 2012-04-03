@@ -66,7 +66,6 @@
 						<p class="description">
 							Conocido pub del casco antiguo de Santiago. 
 							Buen ambiente, copas econ&oacute;micas y muy buena m&uacute;sica. 
-							Recomendado en todas las gu&iacute;as para visitantes a Santiago.
 						</p>
 						<p class="effort">
 						</p>
@@ -77,6 +76,9 @@
 						<img src="img/portfolio/mago-teto.png">
 						<h3>www.magoteto.com</h3>
 						<p class="description">
+							Habitual en la televisi&oacute;n, el Mago Teto es 
+							un mago joven pero veterano que goza de gran 
+							popularidad y reconocimiento.
 						</p>
 						<p class="effort">
 						</p>
@@ -87,6 +89,9 @@
 						<img src="img/portfolio/ingenieria-rias-baixas.png">
 						<h3>www.ingenieriariasbaixas.com</h3>
 						<p class="description">
+							R&iacute;as Baixas pretende ser referente 
+							en el &aacute;rea de servicios de ingenier&iacute;a, 
+							construcci&oacute;n, medio ambiente y seguridad industrial.
 						</p>
 						<p class="effort">
 						</p>
@@ -97,6 +102,9 @@
 						<img src="img/portfolio/ibi.png">
 						<h3>IBI</h3>
 						<p class="description">
+							El IBIV pretende ser la plataforma que agrupe 
+							todos los investigadores biom&eacute;dicos del 
+							&aacute;rea de Vigo.
 						</p>
 						<p class="effort">
 						</p>
@@ -107,6 +115,9 @@
 						<img src="img/portfolio/in1.png">
 						<h3>Grupo Inmunolog&iacute;a IN1</h3>
 						<p class="description">
+							Grupo reconocido internacionalmente con
+							publicaciones en revistas internacionales, 
+							patentes y proyectos de distintos &aacute;mbitos.
 						</p>
 						<p class="effort">
 						</p>
@@ -117,6 +128,7 @@
 						<img src="img/portfolio/hacienda.png">
 						<h3>www.salalahacienda.com</h3>
 						<p class="description">
+							Sala de fiestas. Conciertos en directo.
 						</p>
 						<p class="effort">
 						</p>
@@ -127,6 +139,9 @@
 						<img src="img/portfolio/polirros.png">
 						<h3>www.polirros.com</h3>
 						<p class="description">
+							Empresa innovadora en el sector del termo-conformado.
+							Medios t&eacute;cnicos a la &uacute;ltima y 
+							equipo humano altamente cualificado.
 						</p>
 						<p class="effort">
 						</p>
@@ -137,8 +152,9 @@
 						<img src="img/portfolio/vinclan.png">
 						<h3>www.colexiovalleinclan.com</h3>
 						<p class="description">
-							Joomla/PHP, con m&oacute;dulos a medida para la parte privada 
-							(gesti&oacute;n de alumnos, horarios, faltas y repositorio de material acad&eacute;mico).
+							Centro de Formaci&oacute;n Profesional cuyo principal 
+							objetivo es acercar la formaci&oacute;n a todos aquellos 
+							que lo deseen.
 						</p>
 						<p class="effort">
 							12 sprints de 30 pomodoros
@@ -150,7 +166,9 @@
 						<img src="img/portfolio/tecendo-redes.png">
 						<h3>www.tecendoredes.es</h3>
 						<p class="description">
-							Dise&ntilde;o y restructuraci&oacute;n de web basado en una administraci&oacute;n existente en PHP. 
+							Empresa creada por investigadoras sobre la interacci&oacute;n
+							de la tecnolog&iacute;a de la informaci&oacute;n con diferentes 
+							colectivos sociales.
 						</p>
 						<p class="effort">
 							3 sprints de 25 pomodoros
@@ -162,9 +180,8 @@
 						<img src="img/portfolio/sobreiras-do-faro.png">
 						<h3>www.sobreirasdofaro.com</h3>
 						<p class="description">
-							Web completa a partir de un dise&ntilde;o de cartel, 
-							con m&oacute;dulo a medida para conexi&oacute;n a Picassa, 
-							en PHP desde cero. 
+							Comunidad de Montes V.M.C de Viladesuso.
+							Primer espacio privado de inter&eacute;s natural de Galicia.
 						</p>
 						<p class="effort">
 							1 sprint de 20 pomodoros.
@@ -176,9 +193,7 @@
 						<img src="img/portfolio/enjoy.png">
 						<h3>www.enjoydanceclub.com</h3>
 						<p class="description">
-							Web con dise&ntilde;o a medida y administraci&oacute;n a medida (PHP) 
-							para gestionar imagen de cartel y fechas de eventos enlazadas 
-							a &aacute;lbumes de Picassa.
+							Discoteca.
 						</p>
 						<p class="effort">
 							1 sprint de 30 pomodoros.
@@ -190,6 +205,9 @@
 						<img src="img/portfolio/troncoso.png">
 						<h3>www.troncoso.es</h3>
 						<p class="description">
+							Grupo familiar con m&aacute;s de 50 a&ntilde;os de 
+							experiencia en la atenci&oacute;n y cuidado de 
+							personas con dependencia.
 						</p>
 						<p class="effort">
 						</p>
@@ -200,6 +218,9 @@
 						<img src="img/portfolio/sing.png">
 						<h3>Grupo SING</h3>
 						<p class="description">
+							Grupo de investigaci&oacute;n de Sistemas Inform&aacute;ticos 
+							de Nueva Generaci&oacute;n, enfocado en
+							diversas &aacute;reas de la Inteligencia Artificial.
 						</p>
 						<p class="effort">
 						</p>
@@ -210,6 +231,9 @@
 						<img src="img/portfolio/ciber-obn.png">
 						<h3>www.ciberobn.es</h3>
 						<p class="description">
+							Estructura cooperativa en red, formada por 
+							24 grupos ubicados en los principales centros 
+							de investigaci&oacute;n de toda Espa&ntilde;a.
 						</p>
 						<p class="effort">
 						</p>
@@ -220,6 +244,8 @@
 						<img src="img/portfolio/licentia.png">
 						<h3>www.licentia.es</h3>
 						<p class="description">
+							Empresa de servicios integrales dentro del 
+							sector sanitario y sociosanitario.
 						</p>
 						<p class="effort">
 						</p>
@@ -230,7 +256,9 @@
 						<img src="img/portfolio/electro-enfer.png">
 						<h3>www.electroenfer.com</h3>
 						<p class="description">
-							Web con dise&ntilde;o a medida en PHP desde cero.
+							Distribuci&oacute;n de todo tipo de bombas, grupos 
+							electr&oacute;genos, grupos de presi&oacute;n, riegos 
+							para agricultura, jardiner&iacute;a, etc.
 						</p>
 						<p class="effort">
 							1 sprint de 15 pomodoros.
