@@ -8,7 +8,7 @@ h1 {
 	color: #400;
 	cursor: default;
 	font-size: 40px;
-	margin-top: 30px;
+	margin-top: 80px;
 }
 h2 {
 	color: #000;
@@ -144,7 +144,7 @@ ul li p {
 #collaborators {
 	background-color: #bbb;
 	float: left;
-	height: 250px;
+	height: 300px;
 	width: 100%;
 }
 #collaborators ul li {
@@ -163,7 +163,7 @@ ul li p {
 #contributing {
 	background-color: #bbb;
 	float: left;
-	height: 250px;
+	height: 400px;
 	width: 100%;
 }
 #contributing ul li {
@@ -184,8 +184,8 @@ ul li p {
 	color: #fff;
 	float: left;
 	font-size: 30px;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 	position: relative;
 	width: 100%;
 }
