@@ -85,16 +85,20 @@ ul li p {
 }
 #values ul li a:hover {
 	color: black;
-	text-decoration: underline;
 }
 #values ul li:hover {
 	color: #000;
 	cursor: pointer;
 }
 #values ul li img {
-	border: 1px solid #000;
+	border: 1px solid #999;
 	margin-left: 10px;
+	margin-top: 3px;
+	vertical-align: top;
 	width: 20px;
+}
+#values ul li img:hover {
+	border: 1px solid #000;
 }
 #portfolio {
 	background-color: #bbb;
