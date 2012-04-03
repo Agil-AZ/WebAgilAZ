@@ -35,4 +35,4 @@
 	Last update: 2011/07/12
 	Language: Castellano
 	Doctype: HTML
-	IDE: vi, gimp
+	IDE: vi, gimp, Sublime Text
