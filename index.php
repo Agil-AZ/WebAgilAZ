@@ -226,19 +226,6 @@
 						</p>
 					</li>
 				</a>
-				<a href="http://www.ciberobn.es/" target="_blank">
-					<li>
-						<img src="img/portfolio/ciber-obn.png">
-						<h3>www.ciberobn.es</h3>
-						<p class="description">
-							Estructura cooperativa en red, formada por 
-							24 grupos ubicados en los principales centros 
-							de investigaci&oacute;n de toda Espa&ntilde;a.
-						</p>
-						<p class="effort">
-						</p>
-					</li>
-				</a>
 				<a href="http://licentia.es/" target="_blank">
 					<li>
 						<img src="img/portfolio/licentia.png">
