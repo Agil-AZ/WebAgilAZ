@@ -28,7 +28,8 @@ p {
 	text-align: justify;
 }
 p.description {
-	height: 40px;
+	height: 70px;
+	overflow:	hidden;
 }
 p.effort {
 	display: none;
@@ -114,27 +115,27 @@ ul li p {
 	background-color: #999;
 	border: 1px solid #999;
 	float: left;
-	height: 250px;
 	margin: 5px;
-	overflow: hidden;
-	padding: 10px;
+	padding: 20px 10px 15px;
 	text-align: center;
 	width: 250px;
 }
 #portfolio ul li:hover {
-	border: 1px solid #600;
-	opacity: 0.7;
-		-moz-opacity: 0.7;
-		-o-opacity: 0.7;
-		-webkit-opacity: 0.7;
+	background-color: #AAA;
+/*	opacity: 1.0;
+		-moz-opacity: 1.0;
+		-o-opacity: 1.0;
+		-webkit-opacity: 1.0;*/
 }
 #portfolio ul li h3 {
 	color: #600;
+	margin: 0 0 7px;
 }
 #portfolio ul li img {
-	border: 1px solid #bbb;
+	background-color: #FFF;
+	border: 3px solid #BBB;
 	height: 150px;
-	margin: 15px 0px 11px 0px;
+	margin: 0px 0px 5px 0px;
 	width: 200px;
 }
 #portfolio ul li p {
