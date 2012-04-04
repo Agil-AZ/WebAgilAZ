@@ -220,6 +220,6 @@ ul li p {
 	width: 100%;
 }
 
-.description {
+.description, #portfolio h3 {
 	display: none;
 }
