@@ -219,3 +219,7 @@ ul li p {
 	position: relative;
 	width: 100%;
 }
+
+.description {
+	display: none;
+}
