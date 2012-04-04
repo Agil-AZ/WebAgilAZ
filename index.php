@@ -272,7 +272,7 @@
 				</li>
 				<li>
 					<h3><a href="http://miguelamenedo.com" alt="Miguel Amenedo" title="Miguel Amenedo" target="_blank">
-						<img src="img/collaborators/miguel.png" />
+						<img class="amenedo" src="img/collaborators/miguel.png" />
 					</a></h3>
 				</li>
 			</ul>
