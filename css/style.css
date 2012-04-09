@@ -5,10 +5,12 @@ body {
 	width: 100%;
 }
 h1 {
-	color: #400;
+	color: #A00;
 	cursor: default;
 	font-size: 40px;
-	margin-top: 80px;
+	margin: 0px;
+	padding: 15px 0;
+	font-weight: normal;
 }
 h2 {
 	color: #000;
@@ -102,7 +104,7 @@ ul li p {
 	border: 1px solid #000;
 }
 #portfolio {
-	background-color: #bbb;
+	background-color: #333;
 	float: left;
 	position: relative;
 	width: 100%;
@@ -142,9 +144,9 @@ ul li p {
 	color: #fff;
 }
 #collaborators {
-	background-color: #bbb;
+	background-color: #fff;
 	float: left;
-	height: 300px;
+	height: 217px;
 	width: 100%;
 }
 #collaborators ul li {
@@ -161,9 +163,9 @@ ul li p {
 		-webkit-opacity: 0.7;
 }
 #contributing {
-	background-color: #bbb;
+	background-color: #FFF;
 	float: left;
-	height: 400px;
+	height: 217px;
 	width: 100%;
 }
 #contributing ul li {
@@ -181,16 +183,16 @@ ul li p {
 }
 #contact {
 	background-color: #000;
-	color: #fff;
+	color: #A00;
 	float: left;
 	font-size: 30px;
-	padding-bottom: 40px;
-	padding-top: 40px;
+	padding-bottom: 30px;
+	padding-top: 20px;
 	position: relative;
 	width: 100%;
 }
 #contact .mail a {
-	color: #a00;
+	color: #fff;
 	text-decoration: none;
 }
 #contact .mail a:hover {
@@ -199,6 +201,7 @@ ul li p {
 #contact .phone {
 	cursor: default;
 	font-weight: bold;
+	margin-top: 18px;
 }
 #contact .address {
 	font-size: 24px;
@@ -216,12 +219,12 @@ ul li p {
 #contact .logo-twitter {
 	position: absolute;
 	right: 10px;
-	top: 0px;
+	top: 10px;
 }
 #contact .logo-slow {
 	position: absolute;
 	right: 9px;
-	top: 42px;
+	top: 52px;
 }
 #contact .logo-slow img {
 	width: 96px;
@@ -230,10 +233,14 @@ ul li p {
 #contact .logo-humanstxt {
 	position: absolute;
 	right: 14px;
-	top: 144px;
+	top: 154px;
 }
 .centered {
 	margin: auto;
 	position: relative;
 	width: 900px;
+}
+.header {
+	background-color: #000;
+	
 }
