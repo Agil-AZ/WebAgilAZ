@@ -5,7 +5,7 @@ body {
 	width: 100%;
 }
 h1 {
-	color: #A00;
+	color: #666;
 	cursor: default;
 	font-size: 40px;
 	margin: 0px;
@@ -104,7 +104,7 @@ ul li p {
 	border: 1px solid #000;
 }
 #portfolio {
-	background-color: #333;
+	background-color: #666;
 	float: left;
 	position: relative;
 	width: 100%;
@@ -130,7 +130,7 @@ ul li p {
 		-webkit-opacity: 1.0;*/
 }
 #portfolio ul li h3 {
-	color: #600;
+	color: #A00;
 	margin: 0 0 7px;
 }
 #portfolio ul li img {
@@ -144,10 +144,13 @@ ul li p {
 	color: #fff;
 }
 #collaborators {
-	background-color: #fff;
+	background-color: #A00;
 	float: left;
 	height: 217px;
 	width: 100%;
+}
+#collaborators h1 {
+	color: #A00;
 }
 #collaborators ul li {
 	float: left;
@@ -167,6 +170,9 @@ ul li p {
 	float: left;
 	height: 217px;
 	width: 100%;
+}
+#contributing h1 {
+	color: #FFF;
 }
 #contributing ul li {
 	float: left;
