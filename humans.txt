@@ -29,6 +29,11 @@
 	Twitter: @ncidgomez
 	From: Ourense, Galicia, Spain
 	Works for: Parlamento de Galicia
+
+	Change Agent: Jose Manuel Beas
+	Twitter: @jmbeas
+	From: La Cabrera, Madrid, Spain
+	Thanks for: slow manifesto
 	
 /* SITE */
 	Last update: 2011/07/12
