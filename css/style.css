@@ -1,29 +1,33 @@
+html{
+  font-size: 16px;
+}
 body {
 	font-family: 'Exo', sans-serif;
 	margin: auto;
 	padding-top: 30px;
 	width: 100%;
+  font-size: 62.5% /* 1em = 10px */
 }
 h1 {
 	color: #400;
 	cursor: default;
-	font-size: 40px;
+	font-size: 4em; /* 40px/10px */
 	margin-top: 80px;
 }
 h2 {
 	color: #000;
-	font-size: 24;
+	font-size: 2.4em;
 }
 h3 {
 	color: #fff;
-	font-size: 14;
+	font-size: 1.4em;
 	font-weight: bold;
 	height: 20px;
 	line-height: 20px;
 	margin: 0px;
 }
 p {
-	font-size: 14;
+	font-size: 1.4em;
 	margin: 0px;
 	text-align: justify;
 }
@@ -39,7 +43,7 @@ ul {
 	list-style: none;
 }
 ul li p {
-	font-size: 12px;
+	font-size: 1.2em;
 }
 #logo {
 	height: 300px;
@@ -51,7 +55,7 @@ ul li p {
 }
 #slogan {
 	cursor: default;
-	font-size: 40px;
+	font-size: 4em;
 	font-style: italic;
 	height: 100px;
 	margin-bottom: -40px;
@@ -62,7 +66,7 @@ ul li p {
 #values {
 	color: #444;
 	cursor: default;
-	font-size: 22px;
+	font-size: 2.2em;
 	margin: auto;
 	text-align: left;
 	top: 350px;
@@ -188,7 +192,7 @@ ul li p {
 	background-color: #000;
 	color: #fff;
 	float: left;
-	font-size: 30px;
+	font-size: 3em;
 	padding-bottom: 40px;
 	padding-top: 40px;
 	position: relative;
@@ -206,12 +210,11 @@ ul li p {
 	font-weight: bold;
 }
 #contact .address {
-	font-size: 24px;
+	font-size: 0.8em; /* 24px/30px */
 	margin-top: 15px;
 }
 #contact .address a {
 	color: #fff;
-	font-size: 24px;
 	margin-top: 15px;
 	text-decoration: none;
 }
