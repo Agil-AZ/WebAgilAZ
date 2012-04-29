@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
 <?php require_once('mobile-detection.php'); ?>
 <html>
 <head>
 	<title>Agil-AZ S.L. | Desarrollo de software a medida</title>
+  <meta name="description" content="Software a medida, Agilismo, Diseño. Email: ingenierosinformaticos@agil-az.com. Direcci&aacute;n: R&uacute;a das Hedras 6, 1D. Ames, Milladoiro (A Coru&ntilde;a)" > 
 
 	<link rel="author" href="humans.txt">
    	<link rel="icon" type="image/gif" href="img/favicon.gif">
