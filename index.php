@@ -31,8 +31,12 @@
 	</div>
 
 	<div id="portfolio">
+		<div class="header">
+			<div class="centered">
+				<h1>Working on...</h1>
+			</div>
+		</div>
 		<div class="centered">
-			<h1>Working on...</h1>
 			<ul>
 				<a href="http://culturactiva.org" target="_blank">
 					<li>
@@ -260,8 +264,12 @@
 	</div>
 
 	<div id="collaborators">
+		<div class="header">
+			<div class="centered">
+				<h1>Usual collaborators...</h1>
+			</div>
+		</div>
 		<div class="centered">
-			<h1>Usual collaborators...</h1>
 			<ul>
 				<li>
 					<h3><a href="http://xavierbelho.com" alt="Xavier Belho" title="Xavier Belho" target="_blank">
@@ -283,8 +291,12 @@
 	</div>
 
 	<div id="contributing">
+		<div class="header">
+			<div class="centered">
+				<h1>Also contributing to...</h1>
+			</div>
+		</div>
 		<div class="centered">
-			<h1>Also contributing to...</h1>
 			<ul>
 				<li>
 					<h3><a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS"></a></h3>

@@ -1,14 +1,16 @@
 body {
-	font-size: medium;
+	/*font-size: medium;*/
+	font-size: 100%;
 	font-family: 'Exo', sans-serif;
 	margin: auto;
 	padding-top: 3%;
 	width: 100%;
 }
 h1 {
-	color: #400;
-	font-size: 120%;
-	margin-top: 3%;
+	color: #AAA;
+	font-size: 4em;
+	margin: 0%;
+	padding: 3%;
 }
 h2 {
 	color: #000;
@@ -39,14 +41,14 @@ ul li p {
 #logo {
 	margin: auto;
 	width: 100%;
+	text-align: center;
 }
 #logo img {
-	margin-left: 5%;
-	width: 90%;
+	width: 80%;
 }
 #slogan {
 	cursor: default;
-	font-size: 140%;
+	font-size: 3.5em;
 	font-style: italic;
 	text-align: center;
 	width: 100%;
@@ -54,7 +56,7 @@ ul li p {
 #values {
 	color: #444;
 	cursor: default;
-	font-size: 110%;
+	font-size: 3.5em;
 	margin: auto;
 	text-align: left;
 	width: 100%;
@@ -88,7 +90,7 @@ ul li p {
 	width: 12%;
 }
 #portfolio {
-	background-color: #bbb;
+	background-color: #666;
 	float: left;
 	position: relative;
 	width: 100%;
@@ -114,6 +116,7 @@ ul li p {
 }
 #portfolio ul li h3 {
 	color: #600;
+	display: none;
 }
 #portfolio ul li img {
 	border: 1px solid #bbb;
@@ -123,11 +126,15 @@ ul li p {
 #portfolio ul li p {
 	color: #fff;
 	padding: 5% 5% 5% 5%;
+	display: none;
 }
 #collaborators {
-	background-color: #bbb;
+	background-color: #A00;
 	float: left;
 	width: 100%;
+}
+#collaborators h1 {
+	color: #F00;
 }
 #collaborators img {
 	margin: 5% 30% 5% 30%;
@@ -140,9 +147,12 @@ ul li p {
 		-webkit-opacity: 0.7;
 }
 #contributing {
-	background-color: #bbb;
+	background-color: #fff;
 	float: left;
 	width: 100%;
+}
+#contributing h1 {
+	color: #FFF;
 }
 #contributing img {
 	margin: 5% 30% 5% 30%;
@@ -156,34 +166,32 @@ ul li p {
 }
 #contact {
 	background-color: #000;
-	color: #fff;
+	color: #F00;
 	float: left;
-	font-size: 100%;
-	padding-bottom: 2%;
-	padding-top: 2%;
+	font-size: 2.5em;
+	padding: 2%;
 	position: relative;
 	width: 100%;
+	text-align: center;
 }
 #contact .mail a {
-	color: #a00;
-	margin-left: 4%;
+	color: #fff;
+	margin: 4%;
 	text-decoration: none;
 }
 #contact .mail a:hover {
 	text-decoration: underline;
 }
 #contact .phone {
-	margin-left: 4%;
+	margin-top: 3%;
+	font-size: 2em;
 	font-weight: bold;
 }
 #contact .address {
-	font-size: 150%;
-	margin-left: 4%;
 	margin-top: 2%;
 }
 #contact .address a {
 	color: #fff;
-	font-size: 70%;
 	margin-top: 3%;
 	text-decoration: none;
 }
@@ -191,15 +199,13 @@ ul li p {
 	text-decoration: underline;
 }
 #contact .logo-twitter {
-	margin-left: 36%;
-	margin-top: 4%;
+	margin-top: 6%;
 	position: relative;
 }
 #contact .logo-twitter img {
 	width: 40%;
 }
 #contact .logo-slow {
-	margin-left: 36%;
 	margin-top: 4%;
 	position: relative;
 }
@@ -207,12 +213,11 @@ ul li p {
 	width: 40%;
 }
 #contact .logo-humanstxt {
-	margin-left: 30%;
 	margin-top: 4%;
 	position: relative;
 }
 #contact .logo-humanstxt img {
-	width: 60%;
+	width: 50%;
 }
 .centered {
 	margin: auto;
