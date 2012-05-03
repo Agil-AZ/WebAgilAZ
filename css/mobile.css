@@ -110,9 +110,9 @@ ul li p {
 #portfolio ul li:hover {
 	border: 1px solid #600;
 	opacity: 0.7;
-		-moz-opacity: 0.7;
-		-o-opacity: 0.7;
-		-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-o-opacity: 0.7;
+	-webkit-opacity: 0.7;
 }
 #portfolio ul li h3 {
 	color: #600;
@@ -142,9 +142,9 @@ ul li p {
 }
 #collaborators img:hover {
 	opacity: 0.7;
-		-moz-opacity: 0.7;
-		-o-opacity: 0.7;
-		-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-o-opacity: 0.7;
+	-webkit-opacity: 0.7;
 }
 #contributing {
 	background-color: #fff;
@@ -160,9 +160,9 @@ ul li p {
 }
 #contributing img:hover {
 	opacity: 0.7;
-		-moz-opacity: 0.7;
-		-o-opacity: 0.7;
-		-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-o-opacity: 0.7;
+	-webkit-opacity: 0.7;
 }
 #contact {
 	background-color: #000;
