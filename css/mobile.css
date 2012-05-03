@@ -5,15 +5,14 @@ body {
 	width:       100%;
 	padding-top: 3%;
 }
+
 h1 {
 	color:     #AAA;
 	font-size: 4em;
 	margin:    0%;
 	padding:   3%;
 }
-h2 {
-	color: #000;
-}
+h2 { color: #000; }
 h3 {
 	color:       #fff;
 	font-size:   100%;
@@ -21,14 +20,20 @@ h3 {
 	line-height: 100%;
 	margin:      auto;
 }
+
 p {
 	text-align: justify;
 	font-size:  15px;
 	margin:     0px;
 }
-p.effort {
-	display: none;
-}
+
+p.effort,
+.description, 
+#portfolio ul li h3,
+#portfolio ul li p,
+#portfolio h3 
+{ display: none; }
+
 ul {
 	list-style: none;
 	padding:    0px;
@@ -36,6 +41,7 @@ ul {
 ul li p {
 	font-size: 1em;
 }
+
 #logo {
 	text-align: center;
 	margin:     auto;
@@ -111,9 +117,6 @@ ul li p {
 	-moz-opacity:     0.7;
 	-o-opacity:       0.7;
 	-webkit-opacity:  0.7;
-}
-#portfolio ul li h3, #portfolio ul li p {
-	display: none;
 }
 #portfolio ul li img {
 	border: 1px solid #bbb;
@@ -217,6 +220,3 @@ ul li p {
 	width:    100%;
 }
 
-.description, #portfolio h3 {
-	display: none;
-}
