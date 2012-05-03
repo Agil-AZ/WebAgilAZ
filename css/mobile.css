@@ -1,198 +1,190 @@
 body {
-	/*font-size: medium;*/
-	font-size: 100%;
 	font-family: 'Exo', sans-serif;
-	margin: auto;
+	font-size:   100%;
+	margin:      auto;
+	width:       100%;
 	padding-top: 3%;
-	width: 100%;
 }
 h1 {
-	color: #AAA;
+	color:     #AAA;
 	font-size: 4em;
-	margin: 0%;
-	padding: 3%;
+	margin:    0%;
+	padding:   3%;
 }
 h2 {
 	color: #000;
-	font-size: ;
 }
 h3 {
-	color: #fff;
-	font-size: 100%;
+	color:       #fff;
+	font-size:   100%;
 	font-weight: bold;
 	line-height: 100%;
-	margin: auto;
+	margin:      auto;
 }
 p {
-	font-size: 15px;
-	margin: 0px;
 	text-align: justify;
+	font-size:  15px;
+	margin:     0px;
 }
 p.effort {
 	display: none;
 }
 ul {
 	list-style: none;
-	padding: 0px;
+	padding:    0px;
 }
 ul li p {
 	font-size: 1em;
 }
 #logo {
-	margin: auto;
-	width: 100%;
 	text-align: center;
+	margin:     auto;
+	width:      100%;
 }
 #logo img {
 	width: 80%;
 }
 #slogan {
-	cursor: default;
-	font-size: 3.5em;
+	cursor:     default;
 	font-style: italic;
 	text-align: center;
-	width: 100%;
+	font-size:  3.5em;
+	width:      100%;
 }
 #values {
-	color: #444;
-	cursor: default;
-	font-size: 3.5em;
-	margin: auto;
+	cursor:     default;
+	font-size:  3.5em;
 	text-align: left;
-	width: 100%;
+	margin:     auto;
+	color:      #444;
+	width:      100%;
 }
 #values ul {
-	float: right;
-	list-style: none;
-	margin-right:5%;
-	position: relative;
+	position:     relative;
+	list-style:   none;
+	float:        right;
+	margin-right: 5%;
 }
 #values ul li {
+	text-align:       right;
 	background-color: #fff;
-	float: none;
-	text-align: right;
+	float:            none;
 }
 #values ul li a {
-	color: #444;
 	text-decoration: none;
+	color:           #444;
 }
 #values ul li a:hover {
-	color: black;
 	text-decoration: underline;
+	color:           black;
 }
 #values ul li:hover {
-	color: #000;
 	cursor: pointer;
+	color:  #000;
 }
 #values ul li img {
-	border: 1px solid #000;
+	border:      1px solid #000;
 	margin-left: 0.3em;
-	width: 12%;
+	width:       12%;
 }
 #portfolio {
+	position:         relative;
 	background-color: #666;
-	float: left;
-	position: relative;
-	width: 100%;
+	float:            left;
+	width:            100%;
 }
 #portfolio ul a {
 	text-decoration: none;
 }
 #portfolio ul li {
+	border:           1px solid #999;
+	margin:           0% 5% 5% 5%;
+	text-align:       center;
+	overflow:         hidden;
 	background-color: #999;
-	border: 1px solid #999;
-	float: left;
-	margin: 0% 5% 5% 5%;
-	overflow: hidden;
-	text-align: center;
-	width: 90%;
+	float:            left;
+	width:            90%;
 }
 #portfolio ul li:hover {
-	border: 1px solid #600;
-	opacity: 0.7;
-	-moz-opacity: 0.7;
-	-o-opacity: 0.7;
-	-webkit-opacity: 0.7;
+	border:           1px solid #600;
+	opacity:          0.7;
+	-moz-opacity:     0.7;
+	-o-opacity:       0.7;
+	-webkit-opacity:  0.7;
 }
-#portfolio ul li h3 {
-	color: #600;
+#portfolio ul li h3, #portfolio ul li p {
 	display: none;
 }
 #portfolio ul li img {
 	border: 1px solid #bbb;
 	margin: 5% 5% 5% 5%;
-	width: 90%;
-}
-#portfolio ul li p {
-	color: #fff;
-	padding: 5% 5% 5% 5%;
-	display: none;
+	width:  90%;
 }
 #collaborators {
 	background-color: #A00;
-	float: left;
-	width: 100%;
+	float:            left;
+	width:            100%;
 }
 #collaborators h1 {
 	color: #F00;
 }
 #collaborators img {
 	margin: 5% 30% 5% 30%;
-	width: 40%;
+	width:  40%;
 }
 #collaborators img:hover {
-	opacity: 0.7;
-	-moz-opacity: 0.7;
-	-o-opacity: 0.7;
+	opacity:         0.7;
+	-moz-opacity:    0.7;
+	-o-opacity:      0.7;
 	-webkit-opacity: 0.7;
 }
 #contributing {
 	background-color: #fff;
-	float: left;
-	width: 100%;
+	float:            left;
+	width:            100%;
 }
 #contributing h1 {
 	color: #FFF;
 }
 #contributing img {
 	margin: 5% 30% 5% 30%;
-	width: 40%;
+	width:  40%;
 }
 #contributing img:hover {
-	opacity: 0.7;
-	-moz-opacity: 0.7;
-	-o-opacity: 0.7;
+	opacity:         0.7;
+	-moz-opacity:    0.7;
+	-o-opacity:      0.7;
 	-webkit-opacity: 0.7;
 }
 #contact {
 	background-color: #000;
-	color: #F00;
-	float: left;
-	font-size: 2.5em;
-	padding: 2%;
-	position: relative;
-	width: 100%;
-	text-align: center;
+	color:            #F00;
+	float:            left;
+	font-size:        2.5em;
+	padding:          2%;
+	position:         relative;
+	width:            100%;
+	text-align:       center;
 }
 #contact .mail a {
-	color: #fff;
-	margin: 4%;
+	color:           #fff;
+	margin:          4%;
 	text-decoration: none;
 }
 #contact .mail a:hover {
 	text-decoration: underline;
 }
 #contact .phone {
-	margin-top: 3%;
-	font-size: 2em;
+	margin-top:  3%;
+	font-size:   2em;
 	font-weight: bold;
 }
 #contact .address {
 	margin-top: 2%;
 }
 #contact .address a {
-	color: #fff;
-	margin-top: 3%;
+	color:           #fff;
+	margin-top:      3%;
 	text-decoration: none;
 }
 #contact .address a:hover {
@@ -200,29 +192,29 @@ ul li p {
 }
 #contact .logo-twitter {
 	margin-top: 6%;
-	position: relative;
+	position:   relative;
 }
 #contact .logo-twitter img {
 	width: 40%;
 }
 #contact .logo-slow {
 	margin-top: 4%;
-	position: relative;
+	position:   relative;
 }
 #contact .logo-slow img {
 	width: 40%;
 }
 #contact .logo-humanstxt {
 	margin-top: 4%;
-	position: relative;
+	position:   relative;
 }
 #contact .logo-humanstxt img {
 	width: 50%;
 }
 .centered {
-	margin: auto;
+	margin:   auto;
 	position: relative;
-	width: 100%;
+	width:    100%;
 }
 
 .description, #portfolio h3 {
