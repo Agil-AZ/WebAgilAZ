@@ -1,9 +1,9 @@
+<?php require_once('mobile-detection.php'); ?>
 <?php
 	$style = (is_mobile()) ? "mobile" : "style";
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="es">
-<?php require_once('mobile-detection.php'); ?>
 <html>
 <head>
 	<title>Agil-AZ S.L. | Desarrollo de software a medida</title>
