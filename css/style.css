@@ -12,7 +12,7 @@ h1 {
 	color: #666;
 	cursor: default;
 	font-size: 4em; /* 40px/10px */
-	margin-top: 80px;
+  margin-top: 0px;
 }
 h2 {
 	color: #000;
@@ -58,7 +58,6 @@ ul li p {
 	font-size: 4em;
 	font-style: italic;
 	height: 100px;
-	margin-bottom: -40px;
 	margin-top: 20px;
 	text-align: left;
 	width: 800px;
@@ -67,17 +66,11 @@ ul li p {
 	color: #444;
 	cursor: default;
 	font-size: 2.2em;
-	margin: auto;
 	text-align: left;
-	top: 350px;
-	width: 900px;
 }
 #values ul {
-	float: right;
 	list-style: none;
-	margin-top: -20px;
-	position: relative;
-	top: 0px;
+	margin-top: 0px;
 }
 #values ul li {
 	background-color: #fff;
@@ -142,7 +135,6 @@ ul li p {
 }
 #collaborators {
 	background-color: #A00;
-	float: left;
 	height: 217px;
 	width: 100%;
 }
