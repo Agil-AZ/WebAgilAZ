@@ -184,7 +184,7 @@ ul li p {
 	-o-opacity: 0.7;
 	-webkit-opacity: 0.7;
 }
-#contact {
+footer {
 	background-color: #000;
 	color: #A00;
 	float: left;
@@ -194,48 +194,39 @@ ul li p {
 	position: relative;
 	width: 100%;
 }
-#contact .mail a {
+.contacto {
+  float: left;
+}
+.logosFooter {
+  float: right;
+}
+
+.contacto ul li:first-child a {
 	color: #fff;
 	text-decoration: none;
 }
-#contact .mail a:hover {
+.contacto ul li:first-child a:hover {
 	text-decoration: underline;
 }
-#contact .phone {
+
+.contacto ul li:nth-child(2) {
 	cursor: default;
 	font-weight: bold;
 	margin-top: 18px;
 }
-#contact .address {
+.contacto ul li:last-child {
 	font-size: 0.8em; /* 24px/30px */
 	margin-top: 15px;
 }
-#contact .address a {
+
+.contacto ul li:last-child a{
 	color: #fff;
 	margin-top: 15px;
 	text-decoration: none;
 }
-#contact .address a:hover {
+
+.contacto ul li:last-child a:hover{
 	text-decoration: underline;
-}
-#contact .logo-twitter {
-	position: absolute;
-	right: 10px;
-	top: 10px;
-}
-#contact .logo-slow {
-	position: absolute;
-	right: 9px;
-	top: 52px;
-}
-#contact .logo-slow img {
-	width: 96px;
-	height: 96px;
-}
-#contact .logo-humanstxt {
-	position: absolute;
-	right: 14px;
-	top: 154px;
 }
 .centered {
 	margin: auto;

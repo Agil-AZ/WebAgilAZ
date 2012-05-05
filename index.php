@@ -317,27 +317,25 @@
 		</div>
 	</div>
 
-	<div id="contact">
+	<footer>
 		<div class="centered">
-			<div class="mail">
-				<a href="mailto:ingenierosinformaticos@agil-az.com">ingenierosinformaticos@agil-az.com</a>
-			</div>
-			<div class="phone">
-				+34 981 939 004
-			</div>
-			<div class="address">
-				<a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=agil-az&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=11.540875,23.269043&amp;vpsrc=6&amp;ie=UTF8&amp;hq=agil-az&amp;hnear=&amp;t=h&amp;ll=42.851088,-8.582217&amp;spn=0.010854,0.022724&amp;z=14&amp;iwloc=A&amp;cid=6981789779504529306&amp;output=embed" target="_blank">
+			<div class="contacto">
+        <ul>
+				  <li><a href="mailto:ingenierosinformaticos@agil-az.com">ingenierosinformaticos@agil-az.com</a></li>
+				  <li>+34 981 939 004</li>
+				  <li><a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=agil-az&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=11.540875,23.269043&amp;vpsrc=6&amp;ie=UTF8&amp;hq=agil-az&amp;hnear=&amp;t=h&amp;ll=42.851088,-8.582217&amp;spn=0.010854,0.022724&amp;z=14&amp;iwloc=A&amp;cid=6981789779504529306&amp;output=embed" target="_blank">
 				c/ Hedras, 6, 1D<br/>
 				15895 Ames, Milladoiro (A Coru&ntilde;a)
-				</a>
-			<div class="logo-twitter">
-				<a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a>
+			    	</a>
+          </li>
+        </ul>
 			</div>
-			<div class="logo-slow">
-				<a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a>
-			</div>
-			<div class="logo-humanstxt">
-				<a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a>
+      <div class="logosFooter">
+        <ul>
+				  <li><a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a></li>
+				  <li><a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a></li>
+				  <li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
