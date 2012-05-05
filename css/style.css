@@ -39,8 +39,8 @@ p.effort {
 	display: none;
 }
 ul {
-	float: left;
 	list-style: none;
+  display: block;
 }
 ul li p {
 	font-size: 1.2em;
@@ -107,8 +107,6 @@ ul li p {
 }
 #portfolio {
 	background-color: #666;
-	float: left;
-	position: relative;
 	width: 100%;
 }
 #portfolio ul a {
@@ -118,11 +116,12 @@ ul li p {
 #portfolio ul li {
 	background-color: #999;
 	border: 1px solid #999;
-	float: left;
 	margin: 5px;
 	padding: 20px 10px 15px;
 	text-align: center;
 	width: 250px;
+  display: inline-block;
+  vertical-align: top;
 }
 #portfolio ul li:hover {
 	background-color: #AAA;
@@ -245,7 +244,6 @@ ul li p {
 }
 .centered {
 	margin: auto;
-	position: relative;
 	width: 900px;
 }
 .header {
