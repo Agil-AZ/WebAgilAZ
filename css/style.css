@@ -106,14 +106,17 @@ ul li p {
 	text-decoration: none;
 
 }
+#portfolio ul {
+  margin-bottom: 0;
+}
 #portfolio ul li {
+  display: inline-block;
 	background-color: #999;
 	border: 1px solid #999;
-	margin: 5px;
+	margin: 0 5px 12px 0;
 	padding: 20px 10px 15px;
 	text-align: center;
 	width: 250px;
-  display: inline-block;
   vertical-align: top;
 }
 #portfolio ul li:hover {
