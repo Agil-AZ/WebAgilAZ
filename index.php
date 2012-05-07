@@ -38,6 +38,17 @@
 		</div>
 		<div class="centered">
 			<ul>
+				<a href="http://agil-az.github.com/JQueryLens/" target="_blank">
+					<li>
+						<img src="img/portfolio/jquerylens.png">
+						<h3>JQueryLens component</h3>
+						<p class="description">
+							JQueryLens es un componente Javascript
+							basado en JQuery, que sirve para hacer
+							zoom sobre cualquier imagen.
+						</p>
+					</li>
+				</a>
 				<a href="http://culturactiva.org" target="_blank">
 					<li>
 						<img src="img/portfolio/culturactiva.png">
