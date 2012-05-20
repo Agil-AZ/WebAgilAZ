@@ -56,6 +56,9 @@ p.description {
 p.effort {
 	display: none;
 }
+#company {
+  margin-bottom: 10px;
+}
 #logo {
 	margin: auto;
 	width: 90%; 
