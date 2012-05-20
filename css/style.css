@@ -230,7 +230,7 @@ footer {
 }
 .centered {
 	margin: auto;
-	width: 900px;
+	width:  69.23076923076923%; /* 900 / 1300 */
 }
 .header {
 	background-color: #000;
