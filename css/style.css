@@ -16,6 +16,7 @@ img {
 
 ul {
   margin: auto;
+  padding: 0;
   width: 100%;
 	list-style: none;
   display: block;
@@ -157,12 +158,6 @@ p.effort {
 #collaborators img {
   width: 80%;
 	margin-right: 30px;
-}
-img:hover {
-	opacity: 0.7;
-	-moz-opacity: 0.7;
-	-o-opacity: 0.7;
-	-webkit-opacity: 0.7;
 }
 #collaborators .amenedo{
   width: 80%;
