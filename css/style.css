@@ -14,6 +14,17 @@ img {
   height: auto;
 }
 
+ul {
+  margin: auto;
+  width: 100%;
+	list-style: none;
+  display: block;
+}
+
+ul li p {
+	font-size: 1.2em;
+}
+
 h1 {
 	color: #666;
 	cursor: default;
@@ -44,13 +55,6 @@ p.description {
 p.effort {
 	display: none;
 }
-ul {
-	list-style: none;
-  display: block;
-}
-ul li p {
-	font-size: 1.2em;
-}
 #logo {
 	margin: auto;
 	width: 90%; 
@@ -77,7 +81,6 @@ ul li p {
 }
 #values ul li {
 	background-color: #fff;
-	float: none;
 	text-align: right;
   height: 5%;
 }
@@ -128,10 +131,6 @@ ul li p {
 #portfolio ul li:hover {
 	background-color: #AAA;
 }
-#portfolio ul li h3 {
-	color: #A00;
-	margin: 0 0 7px;
-}
 #portfolio ul li img {
 	background-color: #FFF;
 	border: 3px solid #BBB;
@@ -144,47 +143,45 @@ ul li p {
 }
 #collaborators {
 	background-color: #A00;
-	height: 217px;
 	width: 100%;
+}
+#collaborators ul {
+  padding-bottom: 14px;
+}
+#collaborators ul li{
+  display: inline-block;
 }
 #collaborators h1 {
 	color: #A00;
-}
-#collaborators ul li {
-	float: left;
 }
 #collaborators img {
   width: 80%;
 	margin-right: 30px;
 }
-#collaborators img:hover {
+img:hover {
 	opacity: 0.7;
 	-moz-opacity: 0.7;
 	-o-opacity: 0.7;
 	-webkit-opacity: 0.7;
 }
 #collaborators .amenedo{
-  width: 90%;
-	padding-top: 25px;
+  width: 80%;
+  padding-bottom: 12%;
 }
 #contributing {
 	background-color: #FFF;
-	float: left;
-	height: 217px;
 	width: 100%;
 }
-#contributing ul li {
-	float: left;
+#contributing ul {
+  padding-bottom: 14px;
+}
+#contributing ul li{
+  display: inline-block;
 }
 #contributing img {
 	height: auto;
+  width: 80%;
 	margin-right: 30px;
-}
-#contributing img:hover {
-	opacity: 0.7;
-	-moz-opacity: 0.7;
-	-o-opacity: 0.7;
-	-webkit-opacity: 0.7;
 }
 footer {
 	background-color: #000;
