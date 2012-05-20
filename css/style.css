@@ -47,7 +47,7 @@ ul li p {
 }
 #logo {
 	margin: auto;
-	width: 70%; /* 900 / 1300 */
+	width: 80%; 
 }
 #logo img {
   max-width: 100%;
@@ -55,12 +55,8 @@ ul li p {
 }
 #slogan {
 	cursor: default;
-	font-size: 4em;
+	font-size: 3em;
 	font-style: italic;
-	height: 100px;
-	margin-top: 20px;
-	text-align: left;
-	width: 800px;
 }
 #values {
 	color: #444;
