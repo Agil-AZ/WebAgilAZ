@@ -47,7 +47,8 @@ ul li p {
 }
 #logo {
 	margin: auto;
-	width: 80%; 
+	width: 90%; 
+  padding-left: 10%;
 }
 #logo img {
   max-width: 100%;
@@ -72,6 +73,7 @@ ul li p {
 	background-color: #fff;
 	float: none;
 	text-align: right;
+  height: 5%;
 }
 #values ul li a {
 	color: #444;
@@ -89,7 +91,8 @@ ul li p {
 	margin-left: 10px;
 	margin-top: 3px;
 	vertical-align: top;
-	width: 20px;
+	width: auto;
+  max-height: 100%;
 }
 #values ul li img:hover {
 	border: 1px solid #000;
@@ -226,8 +229,50 @@ footer {
 }
 .centered {
 	margin: auto;
-	width:  69.23076923076923%; /* 900 / 1300 */
+	width: 75%; 
 }
 .header {
 	background-color: #000;
+}
+
+/* --------------------------------------------------------------------
+ *    Media Queries
+ * -------------------------------------------------------------------- */
+
+/* < 1000 */
+@media screen and (max-width: 1000px) {
+  
+  .centered{
+    width: 90%;
+  }
+
+  #slogan{
+    font-size: 2.5em;
+  }
+
+}
+
+/* < 720 */
+@media screen and (max-width: 720px) {
+
+  #slogan{
+    font-size: 1.5em;
+  }
+
+  #values{
+    font-size: 1em;
+  }
+
+  #values ul li {
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* < 380 */
+@media screen and (max-width: 380px) {
+
 }
