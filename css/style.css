@@ -112,7 +112,7 @@ ul li p {
 
 }
 #portfolio ul {
-  margin-bottom: 0;
+  margin: auto;
 }
 #portfolio ul li {
   display: inline-block;
@@ -121,7 +121,7 @@ ul li p {
   margin: 0 0.5% 1% 0;
   padding: 1% 1.5% 1% 1%;
 	text-align: center;
-	width: 25%;
+	width: 28%;
   min-width: 220px;
   vertical-align: top;
 }
