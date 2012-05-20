@@ -46,12 +46,12 @@ ul li p {
 	font-size: 1.2em;
 }
 #logo {
-	height: 300px;
 	margin: auto;
-	width: 900px;
+	width: 70%; /* 900 / 1300 */
 }
 #logo img {
-	margin-left: 40px;
+  max-width: 100%;
+  height: auto;
 }
 #slogan {
 	cursor: default;
