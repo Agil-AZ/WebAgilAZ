@@ -8,6 +8,12 @@ body {
 	width: 100%;
 	font-size: 62.5%; /* 1em = 10px */
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 h1 {
 	color: #666;
 	cursor: default;
@@ -112,10 +118,11 @@ ul li p {
   display: inline-block;
 	background-color: #999;
 	border: 1px solid #999;
-	margin: 0 5px 12px 0;
-	padding: 20px 10px 15px;
+  margin: 0 0.5% 1% 0;
+  padding: 1% 1.5% 1% 1%;
 	text-align: center;
-	width: 250px;
+	width: 25%;
+  min-width: 220px;
   vertical-align: top;
 }
 #portfolio ul li:hover {
@@ -128,9 +135,9 @@ ul li p {
 #portfolio ul li img {
 	background-color: #FFF;
 	border: 3px solid #BBB;
-	height: 150px;
+	height: auto;
 	margin: 0px 0px 5px 0px;
-	width: 200px;
+	width: 100%
 }
 #portfolio ul li p {
 	color: #fff;
@@ -147,7 +154,7 @@ ul li p {
 	float: left;
 }
 #collaborators img {
-	height: 100px;
+  width: 80%;
 	margin-right: 30px;
 }
 #collaborators img:hover {
@@ -157,8 +164,7 @@ ul li p {
 	-webkit-opacity: 0.7;
 }
 #collaborators .amenedo{
-	width: 200px;
-	height:50px;
+  width: 90%;
 	padding-top: 25px;
 }
 #contributing {
@@ -167,14 +173,11 @@ ul li p {
 	height: 217px;
 	width: 100%;
 }
-#contributing h1 {
-	color: #FFF;
-}
 #contributing ul li {
 	float: left;
 }
 #contributing img {
-	height: 100px;
+	height: auto;
 	margin-right: 30px;
 }
 #contributing img:hover {
@@ -240,7 +243,7 @@ footer {
  * -------------------------------------------------------------------- */
 
 /* < 1000 */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   
   .centered{
     width: 90%;
@@ -250,29 +253,53 @@ footer {
     font-size: 2.5em;
   }
 
+  #portfolio ul li {
+    min-width: 190px;
+  }
 }
 
-/* < 720 */
-@media screen and (max-width: 720px) {
+/* < 800 */
+@media screen and (max-width: 800px) {
 
   #slogan{
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
   #values{
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   #values ul li {
-    height: 2%;
+    height: 4%;
   }
 
   h1 {
     font-size: 2em;
   }
+
+  #portfolio ul li {
+    border:           1px solid #999;
+    margin:           0% 5% 5% 5%;
+    width:            37%;
+    min-width:        0px;
+  }
+
+  footer {
+    font-size: 2em;
+  }
 }
 
-/* < 380 */
-@media screen and (max-width: 380px) {
+/* < 640 */
+@media screen and (max-width: 640px) {
 
+  #portfolio ul li {
+    border:           1px solid #999;
+    margin:           0% 5% 5% 5%;
+    width:            90%;
+    min-width:        0px;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
 }

@@ -283,19 +283,19 @@
 		<div class="centered">
 			<ul>
 				<li>
-					<h3><a href="http://xavierbelho.com" alt="Xavier Belho" title="Xavier Belho" target="_blank">
+					<a href="http://xavierbelho.com" alt="Xavier Belho" title="Xavier Belho" target="_blank">
 						<img src="img/collaborators/xavi.png">
-					</a></h3>
+					</a>
 				</li>
 				<li>
-					<h3><a href="http://oncevaras.com" alt="Fernando Lema" title="Fernando Lema" target="_blank">
+					<a href="http://oncevaras.com" alt="Fernando Lema" title="Fernando Lema" target="_blank">
 						<img src="img/collaborators/fer.png">
-					</a></h3>
+					</a>
 				</li>
 				<li>
-					<h3><a href="http://miguelamenedo.com" alt="Miguel Amenedo" title="Miguel Amenedo" target="_blank">
+					<a href="http://miguelamenedo.com" alt="Miguel Amenedo" title="Miguel Amenedo" target="_blank">
 						<img class="amenedo" src="img/collaborators/miguel.png" />
-					</a></h3>
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -310,19 +310,19 @@
 		<div class="centered">
 			<ul>
 				<li>
-					<h3><a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS"></a></h3>
+					<a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS">
 				</li>
 				<li>
-					<h3><a href="https://github.com/beCodeMyFriend/Cuore.js" target="_blank"><img src="img/contributing/cuore.png" alt="Cuore.js" title="Cuore.js"></a></h3>
+					<a href="https://github.com/beCodeMyFriend/Cuore.js" target="_blank"><img src="img/contributing/cuore.png" alt="Cuore.js" title="Cuore.js"></a>
 				</li>
 				<li>
-					<h3><a href="http://www.desk-surfing.org/" target="_blank"><img src="img/contributing/desk-surfing.png" alt="Desk-surfing.org" title="Desk-surfing.org"></a></h3>
+					<a href="http://www.desk-surfing.org/" target="_blank"><img src="img/contributing/desk-surfing.png" alt="Desk-surfing.org" title="Desk-surfing.org"></a>
 				</li>
 				<li>
-					<h3><a href="http://plqd.blogspot.com.es/" target="_blank"><img src="img/contributing/plqd.png" alt="Pienso lo que digo" title="Pienso lo que digo"></a></h3>
+					<a href="http://plqd.blogspot.com.es/" target="_blank"><img src="img/contributing/plqd.png" alt="Pienso lo que digo" title="Pienso lo que digo"></a>
 				</li>
 				<li>
-					<h3><a href="https://github.com/boxuk/obscura" target="_blank"><img src="img/contributing/obscura.png" alt="Obscura, the PHP thumbnail library" title="Obscura, the PHP thumbnail library"></a></h3>
+					<a href="https://github.com/boxuk/obscura" target="_blank"><img src="img/contributing/obscura.png" alt="Obscura, the PHP thumbnail library" title="Obscura, the PHP thumbnail library"></a></h3>
 				</li>
 			</ul>
 		</div>
