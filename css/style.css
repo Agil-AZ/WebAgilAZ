@@ -198,6 +198,7 @@ footer {
 }
 .logosFooter {
   float: right;
+  width: 10%;
 }
 
 .contacto ul li:first-child a {
