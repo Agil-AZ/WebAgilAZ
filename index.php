@@ -1,7 +1,3 @@
-<?php require_once('mobile-detection.php'); ?>
-<?php
-	$style = (is_mobile()) ? "mobile" : "style";
-?>
 <!DOCTYPE html>
 <html class="no-js" lang="es">
 <html>
@@ -12,7 +8,7 @@
 		content="Software a medida, Agilismo, Diseño." > 
 	<link rel="author" href="humans.txt">
    	<link rel="icon" type="image/gif" href="img/favicon.gif">
-	<link rel="stylesheet" type="text/css" href="css/<?php echo $style; ?>.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
    	<link href='http://fonts.googleapis.com/css?family=Exo:400,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
 </head>
