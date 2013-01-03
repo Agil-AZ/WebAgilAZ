@@ -270,6 +270,21 @@
 		</div>
 	</div>
 
+	<div id="team">
+		<div class="header">
+			<div class="centered">
+				<h1>Team...</h1>
+			</div>
+		</div>
+		<div class="centered">
+			<ul>
+				<li>
+          
+				</li>
+			</ul>
+		</div>
+	</div>
+
 	<div id="collaborators">
 		<div class="header">
 			<div class="centered">
@@ -323,8 +338,8 @@
 			</ul>
 		</div>
 	</div>
-
 	<footer>
+
 		<div class="centered">
 			<div class="contacto">
         <ul>
