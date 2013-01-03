@@ -1,0 +1,300 @@
+html{
+  font-size: 16px;
+}
+body {
+	font-family: 'Exo', sans-serif;
+	margin: auto;
+	padding-top: 30px;
+	width: 100%;
+	font-size: 62.5%; /* 1em = 10px */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+	list-style: none;
+  display: block;
+}
+
+ul li p {
+	font-size: 1.2em;
+}
+
+h1 {
+	color: #666;
+	cursor: default;
+	font-size: 4em; /* 40px/10px */
+  margin-top: 0px;
+}
+h2 {
+	color: #000;
+	font-size: 2.4em;
+}
+h3 {
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	margin: 0px;
+}
+p {
+	font-size: 1.4em;
+	margin: 0px;
+	text-align: justify;
+}
+p.description {
+	height: 70px;
+	overflow: hidden;
+}
+p.effort {
+	display: none;
+}
+#company {
+  margin-bottom: 10px;
+}
+#logo {
+	margin: auto;
+	width: 90%; 
+  padding-left: 10%;
+}
+#logo img {
+  max-width: 100%;
+  height: auto;
+}
+#slogan {
+	cursor: default;
+	font-size: 3em;
+	font-style: italic;
+}
+#values {
+	color: #444;
+	cursor: default;
+	font-size: 2.2em;
+	text-align: left;
+}
+#values ul {
+	list-style: none;
+	margin-top: 0px;
+}
+#values ul li {
+	background-color: #fff;
+	text-align: right;
+  height: 5%;
+}
+#values ul li a {
+	color: #444;
+	text-decoration: none;
+}
+#values ul li a:hover {
+	color: black;
+}
+#values ul li:hover {
+	color: #000;
+	cursor: pointer;
+}
+#values ul li img {
+	border: 1px solid #999;
+	margin-left: 10px;
+	margin-top: 3px;
+	vertical-align: top;
+	width: auto;
+  max-height: 100%;
+}
+#values ul li img:hover {
+	border: 1px solid #000;
+}
+#portfolio {
+	background-color: #666;
+	width: 100%;
+}
+#portfolio ul a {
+	text-decoration: none;
+
+}
+#portfolio ul {
+  margin: auto;
+}
+#portfolio ul li {
+  display: inline-block;
+	background-color: #999;
+	border: 1px solid #999;
+  margin: 0 0.5% 1% 0;
+  padding: 1% 1.5% 1% 1%;
+	text-align: center;
+	width: 28%;
+  min-width: 220px;
+  vertical-align: top;
+}
+#portfolio ul li:hover {
+	background-color: #AAA;
+}
+#portfolio ul li img {
+	background-color: #FFF;
+	border: 3px solid #BBB;
+	height: auto;
+	margin: 0px 0px 5px 0px;
+	width: 100%
+}
+#portfolio ul li p {
+	color: #fff;
+}
+#collaborators {
+	background-color: #A00;
+	width: 100%;
+}
+#collaborators ul {
+  padding-bottom: 14px;
+}
+#collaborators ul li{
+  display: inline-block;
+}
+#collaborators h1 {
+	color: #A00;
+}
+#collaborators img {
+  width: 100%
+	margin-right: 30px;
+}
+#collaborators .amenedo{
+  padding-bottom: 12%;
+}
+#contributing {
+	background-color: #FFF;
+	width: 100%;
+}
+#contributing ul {
+  padding-bottom: 14px;
+}
+#contributing ul li{
+  display: inline-block;
+}
+#contributing img {
+	height: auto;
+  width: 80%;
+	margin-right: 30px;
+}
+footer {
+	background-color: #000;
+	color: #A00;
+	float: left;
+	font-size: 3em;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	position: relative;
+	width: 100%;
+}
+.contacto {
+  float: left;
+}
+.logosFooter {
+  float: right;
+  width: 10%;
+}
+
+.contacto ul li:first-child a {
+	color: #fff;
+	text-decoration: none;
+}
+.contacto ul li:first-child a:hover {
+	text-decoration: underline;
+}
+
+.contacto ul li:nth-child(2) {
+	cursor: default;
+	font-weight: bold;
+	margin-top: 18px;
+}
+.contacto ul li:last-child {
+	font-size: 0.8em; /* 24px/30px */
+	margin-top: 15px;
+}
+
+.contacto ul li:last-child a{
+	color: #fff;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+.contacto ul li:last-child a:hover{
+	text-decoration: underline;
+}
+.centered {
+	margin: auto;
+	width: 75%; 
+}
+.header {
+	background-color: #000;
+}
+
+/* --------------------------------------------------------------------
+ *    Media Queries
+ * -------------------------------------------------------------------- */
+
+/* < 1000 */
+@media screen and (max-width: 1024px) {
+  
+  .centered{
+    width: 90%;
+  }
+
+  #slogan{
+    font-size: 2.5em;
+  }
+
+  #portfolio ul li {
+    min-width: 190px;
+  }
+}
+
+/* < 800 */
+@media screen and (max-width: 800px) {
+
+  #slogan{
+    font-size: 2.5em;
+  }
+
+  #values{
+    font-size: 1.5em;
+  }
+
+  #values ul li {
+    height: 4%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #portfolio ul li {
+    border:           1px solid #999;
+    margin:           0% 5% 5% 5%;
+    width:            37%;
+    min-width:        0px;
+  }
+
+  footer {
+    font-size: 2em;
+  }
+}
+
+/* < 640 */
+@media screen and (max-width: 640px) {
+
+  #portfolio ul li {
+    border:           1px solid #999;
+    margin:           0% 5% 5% 5%;
+    width:            90%;
+    min-width:        0px;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
+}
