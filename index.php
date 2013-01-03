@@ -279,7 +279,13 @@
 		<div class="centered">
 			<ul>
 				<li>
-          
+						<img src="img/contributing/plqd.png" alt="Jos&eacute; Doval" >
+				</li>
+				<li>
+						<img src="img/team/edu.jpeg" alt="Eduardo &AAcute;lvarez" >
+				</li>
+				<li>
+						<img src="img/team/pablo.png" alt="Pablo Vicente" >
 				</li>
 			</ul>
 		</div>

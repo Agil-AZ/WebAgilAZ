@@ -180,6 +180,21 @@ p.effort {
   width: 80%;
 	margin-right: 30px;
 }
+#team {
+	background-color: #FFF;
+	width: 100%;
+}
+#team ul {
+  padding-bottom: 14px;
+}
+#team ul li{
+  display: inline-block;
+}
+#team img {
+	height: auto;
+  width: 80%;
+	margin-right: 30px;
+}
 footer {
 	background-color: #000;
 	color: #A00;
