@@ -248,6 +248,26 @@ footer {
 	background-color: #000;
 }
 
+#training > .centered {
+	font-size: 3em;
+}
+
+#training > .centered ul {
+	padding-left: 10%;
+}
+
+#training > .centered ul li {
+	list-style: circle;
+}
+
+#budget > .centered {
+	font-size: 3em;
+}
+
+#budget .price {
+	float: right;
+}
+
 /* --------------------------------------------------------------------
  *    Media Queries
  * -------------------------------------------------------------------- */

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<html>
+<head>
+	<title>Agil-AZ S.L. | Formacion</title>
+	<meta 
+		name="description" 
+		content="Software a medida, Agilismo, Diseño." > 
+	<link rel="author" href="humans.txt">
+   	<link rel="icon" type="image/gif" href="img/favicon.gif">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+   	<link href='http://fonts.googleapis.com/css?family=Exo:400,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<style>
+		span.price { display: none; }
+	</style>
+</head>
+<body>
+	<div id="company" class="centered">
+		<div id="logo"><img src="img/logo/logo_830x300.png"></div>
+
+		<div id="slogan" class="centered">Hacemos software a medida</div>
+
+		<div id="values">
+			<ul>
+				<li><a href="http://agilemanifesto.org/" target="_blank">Manifiesto &aacute;gil<img src="img/checked.png"></a></li>
+				<li><a href="http://es.wikipedia.org/wiki/Software_libre" target="_blank">Software libre<img src="img/checked.png"></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="training">
+
+		<div class="header">
+			<div class="centered">
+				<h1>Training</h1>
+			</div>
+		</div>
+		<div class="centered">
+			<p>
+				We offer both methodological and technical training services.<br/>
+				Our major expertise areas are:
+					<ul>
+						<li>Agile methodologies: XP, Scrum, Kanban</li>
+						<li>Old-way web technologies: PHP frameworks, web design</li>
+						<li>Team best practices and tools: C.I., TDD, git, ...</li>
+					</ul>
+				&nbsp;
+			</p>
+		</div>
+	</div>
+
+	<div id="budget">
+		<div class="header">
+			<div class="centered">
+				<h1>Hire us</h1>
+			</div>
+		</div>
+		<div class="centered">
+			<p>
+				You can estimate your own fee for the service:
+			</p>
+			&nbsp;
+			<form>
+				<fieldset name="milladoiro">
+					Are you located in Milladoiro (Ames, A Coru&ntilde;a)?<br/>
+					<input type="radio" name="milladoiro" value="yes" checked>Yes</input>
+					<input type="radio" name="milladoiro" value="no">No</input>
+					<span class="price">3 &euro;</span>
+				</fieldset>
+				<fieldset name="santiago">
+					Are you located in Santiago de Compostela (A Coru&ntilde;a)?<br/>
+					<input type="radio" name="santiago" value="yes" checked>Yes</input>
+					<input type="radio" name="santiago" value="no">No</input>
+				</fieldset>
+				<fieldset name="flight">
+					How much does a flight from Santiago de Compostela to your place cost?<br/>
+					<input type="text" name="flight" value="80"></input> &euro;
+					<span class="price">80 &euro;</span>
+				</fieldset>
+				<fieldset name="days">
+					How many training days do you need?<br/>
+					<input type="text" name="days" value="1"></input> days
+				</fieldset>
+				<fieldset name="hotel">
+					How much does a hotel night at your place cost?<br/>
+					<input type="text" name="hotel" value="60"></input> &euro;
+					<span class="price">0 &euro;</span>
+				</fieldset>
+				<fieldset name="food">
+					How much does it cost to feed a person at your place?<br/>
+					<input type="text" name="food" value="30"></input> &euro;
+					<span class="price">30 &euro;</span>
+				</fieldset>
+			</form>
+			&nbsp;
+			<p>
+				Your training will cost around <span name="total">110</span> &euro;.<br/>
+				Prices are negotiable.<br/>
+			</p>
+			&nbsp;
+		</div>
+	</div>
+
+	<footer>
+
+		<div class="centered">
+			<div class="contacto">
+        <ul>
+				  <li><a href="mailto:ingenierosinformaticos@agil-az.com">ingenierosinformaticos@agil-az.com</a></li>
+				  <li>+34 981 939 004</li>
+				  <li><a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=agil-az&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=11.540875,23.269043&amp;vpsrc=6&amp;ie=UTF8&amp;hq=agil-az&amp;hnear=&amp;t=h&amp;ll=42.851088,-8.582217&amp;spn=0.010854,0.022724&amp;z=14&amp;iwloc=A&amp;cid=6981789779504529306&amp;output=embed" target="_blank">
+				c/ Hedras, 6, 1D<br/>
+				15895 Ames, Milladoiro (A Coru&ntilde;a)
+			    	</a>
+          </li>
+        </ul>
+			</div>
+      <div class="logosFooter">
+        <ul>
+				  <li><a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a></li>
+				  <li><a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a></li>
+				  <li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
+        </ul>
+			</div>
+		</div>
+	</div>
+
+ <!-- JavaScript at the bottom for fast page loading -->
+
+  <script>
+	var fsMilladoiro = $('fieldset[name="milladoiro"]');
+	var fsSantiago = $('fieldset[name="santiago"]');
+	var fsFlight = $('fieldset[name="flight"]');
+	var fsHotel = $('fieldset[name="hotel"]');
+	var fsFood = $('fieldset[name="food"]');
+	var priceMilladoiro = $('fieldset[name="milladoiro"] span.price');
+	var inputFlight = $('fieldset[name="flight"] input[name="flight"]');
+	var priceFlight = $('fieldset[name="flight"] span.price');
+	var inputHotel = $('fieldset[name="hotel"] input[name="hotel"]');
+	var priceHotel = $('fieldset[name="hotel"] span.price');
+	var inputFood = $('fieldset[name="food"] input[name="food"]');
+	var priceFood = $('fieldset[name="food"] span.price');
+	var inputDays = $('fieldset[name="days"] input[name="days"]');
+
+	var isInMilladoiro = function() {
+		return ($('fieldset[name="milladoiro"] input[value="yes"]:checked').val() != undefined);
+	};
+
+	var isInSantiago = function() {
+		return ($('fieldset[name="santiago"] input[value="yes"]:checked').val() != undefined);
+	};
+
+	var updateTotal = function() {
+		var priceHotel = 0;
+		var priceTransport = 0;
+		var priceFood = 0;
+		var priceHours = 0;
+
+		var days = inputDays.val();
+		var flightCost = inputFlight.val();
+		var hotelCost = inputHotel.val();
+		var foodCost = inputFood.val();
+
+		if (isInMilladoiro()) {
+			priceHotel = days * 20;
+			priceTransport = 0;
+			priceFood = days * 20;
+			priceHours = days * 70;
+		} else if (isInSantiago()) {
+			priceHotel = days * 20;
+			priceTransport = 5 * days;
+			priceFood = days * 30;
+			priceHours = days * 70;
+		} else {
+			priceHotel = 20 + (days - 1) * hotelCost;
+			priceTransport = 20 + 2 * flightCost;
+			priceFood = days * foodCost;
+			priceHours = days * 70;
+		}
+
+		var total = priceHotel
+			+ priceTransport
+			+ priceFood
+			+ priceHours;
+		$('span[name="total"]').html(total);
+	};
+
+	var setOnlyMilladoiro = function() {
+		fsSantiago.slideUp();
+		priceMilladoiro.html('0 &euro;');
+		fsFlight.slideUp();
+		fsHotel.slideUp();
+		fsFood.slideUp();
+		updateTotal();
+	};
+	var setOutOfMilladoiro = function() {
+		fsSantiago.slideDown();
+		priceMilladoiro.html('3 &euro;');
+		if ($('fieldset[name="santiago"] input[value="yes"]:checked').val() == undefined) {
+			fsFlight.slideDown();
+			fsHotel.slideDown();
+			fsFood.slideDown();
+		}
+		updateTotal();
+	};
+	var setInSantiago = function() {
+		fsFlight.slideUp();
+		fsHotel.slideUp();
+		fsFood.slideUp();
+		updateTotal();
+	};
+	var setOutOfSantiago = function() {
+		fsFlight.slideDown();
+		fsHotel.slideDown();
+		fsFood.slideDown();
+		updateTotal();
+	};
+
+	$('fieldset[name="milladoiro"] input[value="yes"]').change(setOnlyMilladoiro);
+	$('fieldset[name="milladoiro"] input[value="no"]').change(setOutOfMilladoiro);
+	$('fieldset[name="santiago"] input[value="yes"]').change(setInSantiago);
+	$('fieldset[name="santiago"] input[value="no"]').change(setOutOfSantiago);
+	inputFlight.change(function() {
+		priceFlight.html((2 * inputFlight.val()) + ' &euro;');
+		updateTotal();
+	});
+	inputHotel.change(function() {
+		priceHotel.html((inputDays.val() - 1) * inputHotel.val() + ' &euro;');
+		updateTotal();
+	});
+	inputFood.change(function() {
+		priceFood.html(inputDays.val() * inputFood.val() + ' &euro;');
+		updateTotal();
+	});
+	inputDays.change(function() {
+		priceHotel.html((inputDays.val() - 1) * inputHotel.val() + ' &euro;');
+		priceFood.html(inputDays.val() * inputFood.val() + ' &euro;');
+		updateTotal();
+	});
+
+	setOnlyMilladoiro();
+  </script>
+
+  <!-- Asynchronous Google Analytics snippet.-->
+  <script>
+    var _gaq=[['_setAccount','UA-12123003-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
