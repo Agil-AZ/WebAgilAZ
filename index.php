@@ -279,14 +279,35 @@
 		<div class="centered">
 			<ul>
 				<li>
-						<img src="img/contributing/plqd.png" alt="Jos&eacute; Doval" >
+						<img src="img/team/pepellou.png" alt="Jos&eacute; Doval" >
 				</li>
+        <li>
+            <p><a href='http://www.linkedin.com/in/pepellou'>http://www.linkedin.com/in/pepellou</a></p>
+            <p><a href='http://plqd.blogspot.com.es/'>lqd.blogspot</a></p>
+            <p> <a href='github.com/pepellou'>github.com/pepellou</a></p>
+            <p> <a href='twitter.com/pepellou'>twitter.com/pepellou</a></p>
+        </li>
 				<li>
 						<img src="img/team/edu.jpeg" alt="Eduardo &AAcute;lvarez" >
 				</li>
+        <li>
+            <p> <a href='github.com/pvcarrera'>github.com/eanovoa</a></p>
+            <p> <a href='twitter.com/eanovoa'>twitter.com/eanovoa</a></p>
+        </li>
 				<li>
 						<img src="img/team/pablo.png" alt="Pablo Vicente" >
 				</li>
+        <li>
+            <p><a href='http://www.linkedin.com/in/pvcarrera'>http://www.linkedin.com/in/pvcarrera</a></p>
+            <p> <a href='github.com/pvcarrera'>github.com/pvcarrera</a></p>
+            <p> <a href='twitter.com/pvcarrera'>twitter.com/pvcarrera</a></p>
+        </li>
+				<li>
+						<img src="img/team/dani.png" alt="Daniel Lago" >
+				</li>
+        <li>
+            <p> <a href='github.com/dlsuarez'>github.com/dlsuarez</a></p>
+        </li>
 			</ul>
 		</div>
 	</div>
