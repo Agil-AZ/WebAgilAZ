@@ -357,9 +357,6 @@
 					<a href="http://www.desk-surfing.org/" target="_blank"><img src="img/contributing/desk-surfing.png" alt="Desk-surfing.org" title="Desk-surfing.org"></a>
 				</li>
 				<li>
-					<a href="http://plqd.blogspot.com.es/" target="_blank"><img src="img/contributing/plqd.png" alt="Pienso lo que digo" title="Pienso lo que digo"></a>
-				</li>
-				<li>
 					<a href="https://github.com/boxuk/obscura" target="_blank"><img src="img/contributing/obscura.png" alt="Obscura, the PHP thumbnail library" title="Obscura, the PHP thumbnail library"></a></h3>
 				</li>
 			</ul>
