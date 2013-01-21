@@ -31,65 +31,72 @@
 		</div>
 	</div>
 
-	<div id="training">
-
+	<div id="training" class="bg_grey">
 		<div class="header">
 			<div class="centered">
-				<h1>Training</h1>
+				<h1 class="c_white">Training...</h1>
 			</div>
 		</div>
-		<div class="centered">
+		<div class="centered padded-v">
 			<p>
-				We offer both methodological and technical training services.<br/>
-				Our major expertise areas are:
-					<ul>
-						<li>Agile methodologies: XP, Scrum, Kanban</li>
-						<li>Old-way web technologies: PHP frameworks, web design</li>
-						<li>Team best practices and tools: C.I., TDD, git, ...</li>
-					</ul>
-				&nbsp;
+				We offer both methodological and technical training services.
 			</p>
 		</div>
 	</div>
-
-	<div id="budget">
+	<div id="expertise" class="bg_red">
 		<div class="header">
 			<div class="centered">
-				<h1>Hire us</h1>
+				<h1 class="c_red">Expertise areas...</h1>
 			</div>
 		</div>
-		<div class="centered">
+		<div class="centered padded-v c_white">
+			<span>Git</span>
+			<span>TDD</span>
+			<span>Unit Testing</span>
+			<span>Scrum</span>
+			<span>Kanban</span>
+			<span>XP</span>
+			<span>Lean</span>
+		</div>
+	</div>
+
+	<div id="budget" class="bg_grey">
+		<div class="header">
+			<div class="centered padded-v">
+				<h1 class="c_white">Hire us...</h1>
+			</div>
+		</div>
+		<div class="centered padded-v">
 			<p>
 				You can estimate your own fee for the service:
 			</p>
-			&nbsp;
 			<form>
-				<fieldset name="milladoiro">
+				<fieldset name="milladoiro" class="bg_lightgrey">
 					Are you located in Milladoiro (Ames, A Coru&ntilde;a)?<br/>
 					<input type="radio" name="milladoiro" value="yes" checked>Yes</input>
 					<input type="radio" name="milladoiro" value="no">No</input>
 					<span class="price">3 &euro;</span>
 				</fieldset>
-				<fieldset name="santiago">
+				<fieldset name="santiago" class="bg_lightgrey">
 					Are you located in Santiago de Compostela (A Coru&ntilde;a)?<br/>
 					<input type="radio" name="santiago" value="yes" checked>Yes</input>
 					<input type="radio" name="santiago" value="no">No</input>
 				</fieldset>
-				<fieldset name="flight">
+				<fieldset name="flight" class="bg_lightgrey">
 					How much does a flight from Santiago de Compostela to your place cost?<br/>
 					<input type="text" name="flight" value="80"></input> &euro;
 					<span class="price">80 &euro;</span>
 				</fieldset>
-				<fieldset name="days">
+				<fieldset name="days" class="bg_lightgrey">
 					How many training days do you need?<br/>
 					<input type="text" name="days" value="1"></input> days
 				</fieldset>
-				<fieldset name="hotel">
+				<fieldset name="hotel" class="bg_lightgrey">
 					How much does a hotel night at your place cost?<br/>
 					<input type="text" name="hotel" value="60"></input> &euro;
 					<span class="price">0 &euro;</span>
 				</fieldset>
-				<fieldset name="food">
+				<fieldset name="food" class="bg_lightgrey">
 					How much does it cost to feed a person at your place?<br/>
 					<input type="text" name="food" value="30"></input> &euro;
 					<span class="price">30 &euro;</span>
@@ -100,7 +107,6 @@
 				Your training will cost around <span name="total">110</span> &euro;.<br/>
 				Prices are negotiable.<br/>
 			</p>
-			&nbsp;
 		</div>
 	</div>
 

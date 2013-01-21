@@ -27,10 +27,10 @@ ul li p {
 }
 
 h1 {
-	color: #666;
 	cursor: default;
 	font-size: 4em; /* 40px/10px */
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 h2 {
 	color: #000;
@@ -55,6 +55,44 @@ p.description {
 }
 p.effort {
 	display: none;
+}
+fieldset {
+	border: 0 none;
+	margin: 10px 0;
+}
+.c_black {
+	color: #000;
+}
+.c_grey {
+	color: #666;
+}
+.c_lightgrey {
+	color: #999;
+}
+.c_white {
+	color: #FFF;
+}
+.c_red {
+	color: #A00;
+}
+.c_black {
+	color: #000;
+}
+.bg_lightgrey {
+	background-color: #999;
+}
+.bg_grey {
+	background-color: #666;
+}
+.bg_white {
+	background-color: #FFF;
+}
+.bg_red {
+	background-color: #A00;
+}
+.padded-v {
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 #company {
   margin-bottom: 10px;
@@ -149,9 +187,6 @@ p.effort {
 	background-color: #A00;
 	width: 100%;
 }
-#collaborators ul {
-  padding-bottom: 14px;
-}
 #collaborators ul li{
   display: inline-block;
 }
@@ -168,9 +203,6 @@ p.effort {
 #contributing {
 	background-color: #FFF;
 	width: 100%;
-}
-#contributing ul {
-  padding-bottom: 14px;
 }
 #contributing ul li{
   display: inline-block;
@@ -246,18 +278,18 @@ footer {
 }
 .header {
 	background-color: #000;
+	padding-top: 1em;
 }
 
-#training > .centered {
+#expertise > .centered {
 	font-size: 3em;
 }
-
-#training > .centered ul {
-	padding-left: 10%;
+#training > .centered {
+	font-size: 2.5em;
 }
 
-#training > .centered ul li {
-	list-style: circle;
+#expertise > .centered span {
+	padding-left: 5%;
 }
 
 #budget > .centered {

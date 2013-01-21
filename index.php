@@ -27,12 +27,12 @@
 	</div>
 
 	<div id="portfolio">
-		<div class="header">
+		<div class="header c_white">
 			<div class="centered">
 				<h1>Working on...</h1>
 			</div>
 		</div>
-		<div class="centered">
+		<div class="centered padded-v">
 			<ul>
 				<a href="http://agil-az.github.com/JQueryLens/" target="_blank">
 					<li>
@@ -271,12 +271,12 @@
 	</div>
 
 	<div id="team">
-		<div class="header">
+		<div class="header c_white">
 			<div class="centered">
 				<h1>Team...</h1>
 			</div>
 		</div>
-		<div class="centered">
+		<div class="centered padded-v">
 			<ul>
 				<li>
 						<img src="img/team/pepellou.png" alt="Jos&eacute; Doval" >
@@ -318,7 +318,7 @@
 				<h1>Usual collaborators...</h1>
 			</div>
 		</div>
-		<div class="centered">
+		<div class="centered padded-v">
 			<ul>
 				<li>
 					<a href="http://xavierbelho.com" alt="Xavier Belho" title="Xavier Belho" target="_blank">
@@ -340,15 +340,15 @@
 	</div>
 
 	<div id="contributing">
-		<div class="header">
+		<div class="header c_grey">
 			<div class="centered">
 				<h1>Also contributing to...</h1>
 			</div>
 		</div>
-		<div class="centered">
+		<div class="centered padded-v">
 			<ul>
 				<li>
-					<a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS">
+					<a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS"></a>
 				</li>
 				<li>
 					<a href="https://github.com/beCodeMyFriend/Cuore.js" target="_blank"><img src="img/contributing/cuore.png" alt="Cuore.js" title="Cuore.js"></a>
