@@ -15,9 +15,7 @@
 <body>
 	<div id="company" class="centered">
 		<div id="logo"><img src="img/logo/logo_830x300.png"></div>
-
 		<div id="slogan" class="centered">Hacemos software a medida</div>
-
 		<div id="values">
 			<ul>
 				<li><a href="http://agilemanifesto.org/" target="_blank">Manifiesto &aacute;gil<img src="img/checked.png"></a></li>
@@ -276,39 +274,46 @@
 				<h1>Team...</h1>
 			</div>
 		</div>
-		<div class="centered padded-v">
-			<ul>
-				<li>
-						<img src="img/team/pepellou.png" alt="Jos&eacute; Doval" >
-				</li>
-        <li>
-            <p><a href='http://www.linkedin.com/in/pepellou'>http://www.linkedin.com/in/pepellou</a></p>
-            <p><a href='http://plqd.blogspot.com.es/'>lqd.blogspot</a></p>
-            <p> <a href='github.com/pepellou'>github.com/pepellou</a></p>
-            <p> <a href='twitter.com/pepellou'>twitter.com/pepellou</a></p>
-        </li>
-				<li>
-						<img src="img/team/edu.jpeg" alt="Eduardo &AAcute;lvarez" >
-				</li>
-        <li>
-            <p> <a href='github.com/pvcarrera'>github.com/eanovoa</a></p>
-            <p> <a href='twitter.com/eanovoa'>twitter.com/eanovoa</a></p>
-        </li>
-				<li>
-						<img src="img/team/pablo.png" alt="Pablo Vicente" >
-				</li>
-        <li>
-            <p><a href='http://www.linkedin.com/in/pvcarrera'>http://www.linkedin.com/in/pvcarrera</a></p>
-            <p> <a href='github.com/pvcarrera'>github.com/pvcarrera</a></p>
-            <p> <a href='twitter.com/pvcarrera'>twitter.com/pvcarrera</a></p>
-        </li>
-				<li>
-						<img src="img/team/dani.png" alt="Daniel Lago" >
-				</li>
-        <li>
-            <p> <a href='github.com/dlsuarez'>github.com/dlsuarez</a></p>
-        </li>
-			</ul>
+		<div class="centered">
+		<div class="team-container padded-v">
+			<div class="member-team">
+				<div class="member-img">
+					<img src="img/team/pepellou.png" alt="Jos&eacute; Doval" >
+				</div>
+				<div class="member-links">
+					<a href='http://www.github.com/pepellou' target="_blank"><div class="github"></div></a>
+					<a href='http://www.twitter.com/pepellou' target="_blank"><div class="twitter"></div></a>
+					<a href='http://www.linkedin.com/in/pepellou' target="_blank"><div class="linkedin"></div></a>
+				</div>
+			</div>
+			<div class="member-team">
+				<div class="member-img">
+					<img src="img/team/pablo.png" alt="Pablo Vicente" >
+				</div>
+				<div class="member-links">
+					<a href='http://www.github.com/pvcarrera' target="_blank"><div class="github"></div></a>
+					<a href='http://www.twitter.com/pvcarrera' target="_blank"><div class="twitter"></div></a>
+					<a href='http://www.linkedin.com/in/pvcarrera' target="_blank"><div class="linkedin"></div></a>
+				</div>
+			</div>
+			<div class="member-team">
+				<div class="member-img">
+					<img src="img/team/dani.png" alt="Daniel Lago" >
+				</div>
+				<div class="member-links">
+					<a href='http://www.github.com/dlsuarez' target="_blank"><div class="github"></div></a>
+				</div>
+			</div>
+			<div class="member-team">
+				<div class="member-img">
+					<img src="img/team/edu.jpeg" alt="Eduardo &AAcute;lvarez" >
+				</div>
+				<div class="member-links">
+					<a href='http://www.github.com/eanovoa' target="_blank"><div class="github"></div></a>
+					<a href='http://www.twitter.com/eanovoa' target="_blank"><div class="twitter"></div></a>
+				</div>
+			</div>
+		</div>
 		</div>
 	</div>
 
@@ -348,6 +353,9 @@
 		<div class="centered padded-v">
 			<ul>
 				<li>
+					<a href='http://plqd.blogspot.com.es/' target="_blank"><img src="img/contributing/logo_plqd.png" alt="Blog: Pienso lo que digo" title="Pienso lo que digo"></a>
+				</li>
+				<li>
 					<a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS"></a>
 				</li>
 				<li>
@@ -363,25 +371,24 @@
 		</div>
 	</div>
 	<footer>
-
 		<div class="centered">
 			<div class="contacto">
-        <ul>
+        			<ul>
 				  <li><a href="mailto:ingenierosinformaticos@agil-az.com">ingenierosinformaticos@agil-az.com</a></li>
 				  <li>+34 981 939 004</li>
 				  <li><a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=agil-az&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=11.540875,23.269043&amp;vpsrc=6&amp;ie=UTF8&amp;hq=agil-az&amp;hnear=&amp;t=h&amp;ll=42.851088,-8.582217&amp;spn=0.010854,0.022724&amp;z=14&amp;iwloc=A&amp;cid=6981789779504529306&amp;output=embed" target="_blank">
-				c/ Hedras, 6, 1D<br/>
-				15895 Ames, Milladoiro (A Coru&ntilde;a)
-			    	</a>
-          </li>
-        </ul>
+							c/ Hedras, 6, 1D<br/>
+							15895 Ames, Milladoiro (A Coru&ntilde;a)
+			    		</a>
+          			  </li>
+        			</ul>
 			</div>
-      <div class="logosFooter">
-        <ul>
+			<div class="logosFooter">
+        			<ul>
 				  <li><a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a></li>
 				  <li><a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a></li>
 				  <li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
-        </ul>
+        			</ul>
 			</div>
 		</div>
 	</div>

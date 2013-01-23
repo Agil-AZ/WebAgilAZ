@@ -100,7 +100,7 @@ fieldset {
 #logo {
 	margin: auto;
 	width: 90%; 
-  padding-left: 10%;
+	padding: 0 5%;
 }
 #logo img {
   max-width: 100%;
@@ -186,23 +186,25 @@ fieldset {
 #collaborators {
 	background-color: #A00;
 	width: 100%;
+	float: left;
 }
 #collaborators ul li{
-  display: inline-block;
+	display: inline-block;
 }
 #collaborators h1 {
 	color: #A00;
 }
 #collaborators img {
-  width: 100%
+	width: 100%
 	margin-right: 30px;
 }
 #collaborators .amenedo{
-  padding-bottom: 12%;
+	padding-bottom: 12%;
 }
 #contributing {
 	background-color: #FFF;
 	width: 100%;
+	float: left;
 }
 #contributing ul li{
   display: inline-block;
@@ -215,6 +217,7 @@ fieldset {
 #team {
 	background-color: #FFF;
 	width: 100%;
+	float: left;
 }
 #team ul {
   padding-bottom: 14px;
@@ -222,10 +225,82 @@ fieldset {
 #team ul li{
   display: inline-block;
 }
-#team img {
-	height: auto;
-  width: 80%;
-	margin-right: 30px;
+#team .team-container {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+#team .member-team {
+	width: 25%;
+	float: left;
+}
+#team .member-img {
+	width: 100%;
+}
+#team .member-img img {
+	width: 10em;
+}
+#team .member-links {
+	width: 12em;
+	margin: 0 auto;
+}
+#team .member-links img {
+	width: 3em;
+}
+#team .member-links p {
+	text-align: center;
+}
+.github {
+	background-image: url("../img/social/github_black.png");
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 0.5em;
+}
+.linkedin {
+	background-image: url("../img/social/linkedin_black.png");
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 0.5em;
+}
+.twitter {
+	background-image: url("../img/social/twitter_black.png");
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 0.5em;
+}
+.github:hover {
+	background-image: url("../img/social/github_color.png");
+	background-size: 3em 3em;
+	width: 3em;
+	height: 3em;
+}
+.linkedin:hover {
+	background-image: url("../img/social/linkedin_color.png");
+	background-size: 3em 3em;
+	width: 3em;
+	height: 3em;
+}
+.twitter:hover {
+	background-image: url("../img/social/twitter_color.png");
+	background-size: 3em 3em;
+	width: 3em;
+	height: 3em;
+}
+#team a {
+	text-decoration: none;
+	color: #000;
+}
+#team a:hover {
+	color: #A00;
 }
 footer {
 	background-color: #000;
