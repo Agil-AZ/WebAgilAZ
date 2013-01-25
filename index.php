@@ -283,7 +283,7 @@
 				<div class="member-links">
 					<a href='http://www.github.com/pepellou' target="_blank"><div class="github"></div></a>
 					<a href='http://www.twitter.com/pepellou' target="_blank"><div class="twitter"></div></a>
-					<a href='http://www.linkedin.com/in/pepellou' target="_blank"><div class="linkedin"></div></a>
+					<a href='http://plqd.blogspot.com.es/' target="_blank"><div class="blogger"></div></a>
 				</div>
 			</div>
 			<div class="member-team">
@@ -302,6 +302,7 @@
 				</div>
 				<div class="member-links">
 					<a href='http://www.github.com/dlsuarez' target="_blank"><div class="github"></div></a>
+					<a href='http://www.twitter.com/dlsuarez' target="_blank"><div class="twitter"></div></a>
 				</div>
 			</div>
 			<div class="member-team">
@@ -352,9 +353,6 @@
 		</div>
 		<div class="centered padded-v">
 			<ul>
-				<li>
-					<a href='http://plqd.blogspot.com.es/' target="_blank"><img src="img/contributing/logo_plqd.png" alt="Blog: Pienso lo que digo" title="Pienso lo que digo"></a>
-				</li>
 				<li>
 					<a href="https://github.com/joomla/joomla-cms" target="_blank"><img src="img/contributing/joomla.png" alt="Joomla CMS" title="Joomla CMS"></a>
 				</li>

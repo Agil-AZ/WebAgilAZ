@@ -277,6 +277,21 @@ fieldset {
 	float: left;
 	margin: 0.5em;
 }
+.blogger {
+	background-image: url("../img/social/blogger_black.png");
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 0.5em;
+}
+.blogger:hover {
+	background-image: url("../img/social/blogger_color.png");
+	background-size: 3em 3em;
+	width: 3em;
+	height: 3em;
+}
 .github:hover {
 	background-image: url("../img/social/github_color.png");
 	background-size: 3em 3em;
