@@ -1,0 +1,14 @@
+/* TEAM */
+	Standard Woman: Nerea Gonzalez Lopez
+	Twitter: @nerglez
+	From: Ourense, Galicia, Spain
+
+	Software Sculptor: Pepe Doval Gonzalez
+	Twitter: @pepellou
+	From: Santiago de Compostela, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+/* SITE */
+	Last update: April 2013
+	Language: Castellano
+	Doctype: HTML

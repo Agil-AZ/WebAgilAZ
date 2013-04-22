@@ -20,43 +20,61 @@
 			height: 100%;
 			min-width: 100%;
 			min-height: 100%;
+			margin: 0;
+			padding: 0;
 		}
 		.hint { display: none; }
 		#mapwrap {
 			width: 100%;
 			float: left;
 			position: fixed;
-			top: 0;
+			top: 50px;
 			left: 0;
 			right: 0;
-			bottom: 0;
+			bottom: 100px;
 		}
 		#map_canvas {
 			float: left;
 			width: 100%;
 			height: 100%;
 		}
+		header {
+			width: 100%;
+			float: left;
+			position: fixed;
+			height: 50px;
+			background-color: black;
+			top: 0;
+			left: 0;
+		}
+		header h1 {
+			font-size: 30px;
+			line-height: 50px;
+			margin: 0;
+			padding: 0px 50px;
+			color: white;
+		}
+		footer {
+			width: 100%;
+			float: left;
+			position: fixed;
+			height: 100px;
+			background-color: black;
+			bottom: 0;
+			left: 0;
+		}
 	</style>
 </head>
 <body>
 	<div id="mapwrap"><div id="map_canvas"></div></div>
-	<h1>Peque&ntilde;as empresas de software en...</h1>
+	<header>
+		<h1>Peque&ntilde;as empresas de software en...</h1>
+	</header>
 	<div class="hint">
 		<p>
 			<strong>&iquest;Por qu&eacute;?</strong><br/>
 			No es por qu&eacute;, sino para qu&eacute;, o mejor dicho para qui&eacute;n: para todos aquellos que buscan un empleo en ese tipo de empresa.
 		</p>
-	</div>
-	<div id="companies">
-		<div class="company">
-			<span class="name"> SoftWhisper </span>
-			<span class="twitter"> SoftWhisperSL </span>
-			<span class="employees"> 4 </span>
-			<span class="technologies"> Ruby </span>
-			<span class="gmaps"> http://goo.gl/maps/d3vwN </span>
-			<span class="web"> http://www.softwhisper.es/ </span>
-			<span class="address"> Avd. Rosal&iacute;a de Castro 212, Perillo, Oleiros </span>
-		</div>
 	</div>
 
 	<h1>&iquest;Crees que falta alguna en la lista?</h1>
@@ -77,29 +95,12 @@
 	</form>
 
 	<footer>
-		<div class="centered">
-			<div class="contacto">
-        <ul>
-				  <li><a href="mailto:ingenierosinformaticos@agil-az.com">ingenierosinformaticos@agil-az.com</a></li>
-				  <li>+34 981 939 004</li>
-				  <li><a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=agil-az&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=11.540875,23.269043&amp;vpsrc=6&amp;ie=UTF8&amp;hq=agil-az&amp;hnear=&amp;t=h&amp;ll=42.851088,-8.582217&amp;spn=0.010854,0.022724&amp;z=14&amp;iwloc=A&amp;cid=6981789779504529306&amp;output=embed" target="_blank">
-				c/ Hedras, 6, 1D<br/>
-				15895 Ames, Milladoiro (A Coru&ntilde;a)
-			    	</a>
-          </li>
-        </ul>
-			</div>
-      <div class="logosFooter">
-        <ul>
-				  <li><a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a></li>
-				  <li><a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a></li>
-				  <li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
-        </ul>
-			</div>
+		<div class="logosFooter">
+			<ul>
+				<li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
+			</ul>
 		</div>
-	</div>
-
- <!-- JavaScript at the bottom for fast page loading -->
+	</footer>
 
 	<script>
 		$(function() {
@@ -107,12 +108,5 @@
 		});
 	</script>
 
-  <!-- Asynchronous Google Analytics snippet.-->
-  <script>
-    var _gaq=[['_setAccount','UA-12123003-2'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
 </body>
 </html>
