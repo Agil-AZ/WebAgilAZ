@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<html>
+<head>
+	<title>Listado de pequeñas empresas de software</title>
+	<meta name="description" content="Desarrollo de Software" > 
+	<link rel="author" href="humans.txt">
+   	<link rel="icon" type="image/gif" href="img/favicon.gif">
+	<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+   	<link href='http://fonts.googleapis.com/css?family=Exo:400,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script type="text/javascript"
+	      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB9z6AhWZRroBRzUmzAJoTzxUgRkq6bXbI&sensor=false&language=es">
+	</script>
+	<script src="js/companies.js" type="text/javascript"></script>
+	<script src="js/map.js" type="text/javascript"></script>
+	<style>
+		body {
+			width: 100%;
+			height: 100%;
+			min-width: 100%;
+			min-height: 100%;
+		}
+		.hint { display: none; }
+		#mapwrap {
+			width: 100%;
+			float: left;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+		#map_canvas {
+			float: left;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="mapwrap"><div id="map_canvas"></div></div>
+	<h1>Peque&ntilde;as empresas de software en...</h1>
+	<div class="hint">
+		<p>
+			<strong>&iquest;Por qu&eacute;?</strong><br/>
+			No es por qu&eacute;, sino para qu&eacute;, o mejor dicho para qui&eacute;n: para todos aquellos que buscan un empleo en ese tipo de empresa.
+		</p>
+	</div>
+	<div id="companies">
+		<div class="company">
+			<span class="name"> SoftWhisper </span>
+			<span class="twitter"> SoftWhisperSL </span>
+			<span class="employees"> 4 </span>
+			<span class="technologies"> Ruby </span>
+			<span class="gmaps"> http://goo.gl/maps/d3vwN </span>
+			<span class="web"> http://www.softwhisper.es/ </span>
+			<span class="address"> Avd. Rosal&iacute;a de Castro 212, Perillo, Oleiros </span>
+		</div>
+	</div>
+
+	<h1>&iquest;Crees que falta alguna en la lista?</h1>
+	<p>
+		Danos todos los datos, por favor:
+	</p>
+	<form>
+		<fieldset name="new_company" class="bg_lightgrey">
+			Nombre: <input type="text" name="name"/><br/>
+			Twitter: <input type="text" name="twitter"/><br/>
+			Num. empleados: <input type="text" name="employees"/><br/>
+			Tecnolog&iacute;as: <input type="text" name="technologies"/><br/>
+			GMaps: <input type="text" name="gmaps"/><br/>
+			Web: <input type="text" name="web"/><br/>
+			Direcci&oacute;n: <input type="text" name="address"/>
+			<button>A&ntilde;adir</button>
+		</fieldset>
+	</form>
+
+	<footer>
+		<div class="centered">
+			<div class="contacto">
+        <ul>
+				  <li><a href="mailto:ingenierosinformaticos@agil-az.com">ingenierosinformaticos@agil-az.com</a></li>
+				  <li>+34 981 939 004</li>
+				  <li><a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=agil-az&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=11.540875,23.269043&amp;vpsrc=6&amp;ie=UTF8&amp;hq=agil-az&amp;hnear=&amp;t=h&amp;ll=42.851088,-8.582217&amp;spn=0.010854,0.022724&amp;z=14&amp;iwloc=A&amp;cid=6981789779504529306&amp;output=embed" target="_blank">
+				c/ Hedras, 6, 1D<br/>
+				15895 Ames, Milladoiro (A Coru&ntilde;a)
+			    	</a>
+          </li>
+        </ul>
+			</div>
+      <div class="logosFooter">
+        <ul>
+				  <li><a href="http://twitter.com/agil_az" target="_blank"><img src="img/twitter_agilaz.png"></a></li>
+				  <li><a href="slow-manifesto.html" target="_blank"><img src="img/slow_logo.png"></a></li>
+				  <li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
+        </ul>
+			</div>
+		</div>
+	</div>
+
+ <!-- JavaScript at the bottom for fast page loading -->
+
+	<script>
+		$(function() {
+			setUpMapCompanies(companies);
+		});
+	</script>
+
+  <!-- Asynchronous Google Analytics snippet.-->
+  <script>
+    var _gaq=[['_setAccount','UA-12123003-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
