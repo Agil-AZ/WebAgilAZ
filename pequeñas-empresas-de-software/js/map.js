@@ -6,7 +6,7 @@ var MAPTYPE_ID = 'companies';
 function showCompanies(
 	companies
 ) {
-	var pinLocation = new google.maps.Point(15, 110);
+	var pinLocation = new google.maps.Point(7, 55);
 	var image = './img/pin.png';
 	for (var i in markers) {
 		marker = markers[i];
@@ -20,14 +20,52 @@ function showCompanies(
 			map: map_companies,
 			icon: new google.maps.MarkerImage(
 				'./img/pin.png',
-				new google.maps.Size(100, 113),
+				new google.maps.Size(50, 57),
 				new google.maps.Point(0,0),
 				pinLocation
 			),
 			title: company.name
 		});
 		markers[i] = marker;
+		google.maps.event.addListener(
+			marker,
+			'click',
+			clickOnMarker(company)
+		);
 	}
+}
+
+function clickOnMarker(
+        marker
+) {
+        return function () {
+		showCompany(marker);
+        };
+}
+
+function showCompany(
+	company
+) {
+	$('#companyCard').fadeOut({
+		complete: function() {
+			$('#companyCard .name').html(company.name);
+			$('#companyCard .employees').html(company.employees);
+			$('#companyCard .twitter').html(company.twitter);
+			$('#companyCard .twitter').attr('href', 'https://twitter.com/' + company.twitter);
+			$('#companyCard .web').html(company.web);
+			$('#companyCard .web').attr('href', company.web);
+console.log(company.technologies);
+			var tech = "";
+			if (company.technologies != undefined) {
+				company.technologies.forEach(function(technology) {
+console.log(technology);
+					tech += "<li>" + technology + "</li>";
+				});
+			}
+			$('#companyCard .technologies').html(tech);
+			$('#companyCard').fadeIn();
+		}
+	});
 }
 
 function setUpMapCompanies(
@@ -47,10 +85,10 @@ function setUpMapCompanies(
 	];
 
 	var mapOptions = {
-		zoom: 12,
+		zoom: 13,
 		center: aCorunna,
 		mapTypeControlOptions: {
-			mapTypeIds: [google.maps.MapTypeId.ROADMAP, MAPTYPE_ID]
+			mapTypeIds: []
 		},
 		mapTypeId: MAPTYPE_ID
 	};
