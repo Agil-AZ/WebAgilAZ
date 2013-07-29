@@ -271,7 +271,7 @@
 	<div id="team">
 		<div class="header c_white">
 			<div class="centered">
-				<h1>Team...</h1>
+				<h1>People...</h1>
 			</div>
 		</div>
 		<div class="centered">
