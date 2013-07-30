@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+	<title>Agil-AZ S.L. | Desarrollo de software a medida</title>
+	<meta 
+		name="description" 
+		content="Software a medida, Agilismo, Diseño." > 
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="author" href="humans.txt">
+   	<link rel="icon" type="image/gif" href="img/favicon.gif">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+   	<link href='http://fonts.googleapis.com/css?family=Exo:400,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+
+    <style>
+        #portfolio div.padded-v {
+            background-color: #888;
+        }
+        #portfolio p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+	<div id="company" class="centered">
+		<div id="logo"><img src="img/logo/logo_830x300.png"></div>
+		<div id="slogan" class="centered">Hacemos software a medida</div>
+		<div id="values">
+			<ul>
+				<li><a href="http://agilemanifesto.org/" target="_blank">Manifiesto &aacute;gil<img src="img/checked.png"></a></li>
+				<li><a href="http://es.wikipedia.org/wiki/Software_libre" target="_blank">Software libre<img src="img/checked.png"></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="portfolio">
+		<div class="header c_white">
+			<div class="centered">
+				<h1>Ideas</h1>
+			</div>
+		</div>
+		<div class="centered padded-v">
+            <h2>BDD-PHPUnit</h2>
+            <p>
+                Hacer un framework de BDD basado en PHPUnit, de forma que un 
+                test se pueda escribir "al estilo" BDD, por ejemplo:
+            </p>
+            <pre> $this-&gt;assertThat(2+2).equalTo(4); </pre>
+            <p>
+                en lugar de
+            </p>
+            <pre> $this-&gt;assertEquals(4, 2+2); </pre>
+            <p>
+                Básicamente es construir un DSL en PHP.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>Time-PHPUnit</h2>
+            <p>
+                Un framework de profiling desde los tests, pudiendo testear 
+                tiempos de ejecución. Por ejemplo, algo sencillo sería:
+            </p>
+            <pre>
+                $this-&gt;assertThat(function ($x) { echo $x*$x; })-&gt;runsInLessThan(10); // ms
+            </pre>
+            <p>
+                o
+            </p>
+            <pre>
+                $this-&gt;assertThatFunction(function ($x) { echo $x*$x; })-&gt;time()-&gt;lessThan(10); // ms
+            </pre>
+            <p>
+                Como ves, uso las ideas de BDD pero podría expresarse de 
+                otras formas. La idea es aprovechar las funciones anónimas 
+                de las últimas versiones de PHP para medir tiempos de 
+                ejecución desde los tests y usarlos en las aserciones. 
+                Una idea interesante es usar funciones parametrizadas para 
+                medir órdenes de complejidad:
+            </p>
+            <pre>
+                $this-&gt;assertThatFunction(function ($x) { for ($i = 0; $i &lt; $x; $i++) { doSth($i); } })-&gt;isO('N');
+            </pre>
+            <p>
+                Es decir, poder comparar si un algoritmo es O(N) o O(logN) 
+                en base a una batería de pruebas sobre los parámetros 
+                midiendo tiempos de ejecución. Por supuesto esto tiene 
+                mucha tela que cortar; en mi ejemplo de test no he indicado 
+                cosas probablemente necesarias, como rango donde variar los 
+                parámetros o umbrales de aproximación a cada función (lineal, 
+                exponencial...)
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>PHPUnit-Logs</h2>
+            <p>
+                Nuestra intención es hacer una interfaz web para los tests de 
+                phpunit de un proyecto. Por el momento tenemos una primera 
+                versión (https://github.com/Agil-AZ/phpunit-logs) con las cosas 
+                hechas un poco a mano (como un script para enlazar a mano un 
+                XML generado con una hoja XSLT). Lo que hacemos es configurar 
+                phpunit con una opción para "escupir" los resultados a un XML, 
+                y lo formateamos con XSLT. Como primer prototipo nos vale, 
+                pero lo interesante sería hacer una interfaz web algo más 
+                completita, como por ejemplo con botones para lanzar los tests 
+                desde la web (bien todos, bien uno específico), mostrar un mejor 
+                detalle de los resultados, enlazar con el código, etc. 
+                Hay un sinfín de ideas que se nos pueden ocurrir alrededor.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>xUnit</h2>
+            <p>
+                La intención es hacer algo que increíblemente no hemos 
+                encontrado por ahí: un framework de testing en bash. Es algo 
+                que nos vendría muy bien, porque en todos los proyectos siempre 
+                acabas haciendo algo de scripting para los despliegues o alguna 
+                cosa concreta, y aunque suele ser sencillo, a veces se va de las 
+                manos y molaría tenerlo testeado :-)
+                En cualquier caso, yo ya he hecho una prueba de concepto 
+                (https://github.com/pepellou/xunit) y sería cuestión de completarlo 
+                y mejorarlo (solo tiene un par de asserts básicos disponibles y 
+                de momento solo sirve para testear un único fichero, no directorios 
+                por ejemplo). 
+                También es algo alrededor de lo que se pueden pensar muchas ideas.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>Code-Tournaments</h2>
+            <p>
+                La intención es hacer un sitio web donde los usuarios puedan 
+                crear/configurar/disputar torneos invitando a jugadores. Cada 
+                torneo puede ser de 2 tipos: individual o con enfrentamientos. 
+                Ejemplo de individual: torneo de intérprete de LISP, donde cada 
+                jugador tiene que implementar un intérprete de LISP en cualquier 
+                lenguaje de programación. 
+                Ejemplo de con enfrentamiento: torneo de 3 en raya, donde cada 
+                jugador tiene que implementar un robot que juegue al 3 en raya. 
+                Cuando un torneo está en juego, cada ronda dura X minutos, 
+                durante los cuales los jugadores pueden subir su versión del código. 
+                Si es individual, se evalúa el código subido (por ejemplo, 
+                contra una batería de tests). Si es con enfrentamientos, se 
+                enfrentan todos los robots entre sí y se suman las victorias de 
+                cada uno. Tras N rondas se acaba, y habrá clasificación, claro. 
+                Para que se entienda mejor, será parecido a https://www.hackerrank.com/ 
+                y de hecho al principio lo mejor será partir de juegos prefijados, 
+                aunque mi intención es generalizarlo para que quien administre un 
+                torneo pueda implementar la "evaluación" de cada ronda en los 
+                individuales, o la lógica del juego en los otros. No sé si lo 
+                expliqué muy bien, en cualquier caso, tengo una base de código en 
+                PHP, aún no publicada, que utilizaremos para hacer un torneo como 
+                el que describí de LISP el próximo 15 de diciembre.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>Mobile Web with Leaflet - Crisis</h2>
+Tenemos hecha una web (http://crisis-whatcrisis.com/) que no está optimizada para móvil. El tema de contenidos es muy fácil de colocar para móvil, en una columna. La cuestión interesante es el mapa de google maps, que tiene cierta interacción. Nuestra intención es experimentar con Leaflet (http://leafletjs.com/) para replicar o incluso aumentar dicha interacción en la vista para móvil. No es muy complejo, por lo que nuestra intención de momento es hacerlo en los ratos libers. El deadline de este proyecto es Abril.
+
+		</div>
+		<div class="centered padded-v">
+            <h2>Bricodemania</h2>
+            <p>
+                No sé hasta qué punto podría ayudarnos un alumno, pero 
+                bueno, ahí va. Nuestra intención es hacer episodios como 
+                los de Bricomanía pero hablando de construir código. Esto 
+                es, grabar episodios videotutoriales con varias partes, para 
+                hablar de cómo construir código (con temática diversa y de 
+                distintos grados de dificultad). Tenemos bastante pensados 
+                los contenidos, pero no mucho el formato en el que queremos 
+                presentarlo. Grabar un vídeo, producirlo y colgarlo en la 
+                web no debería ser muy difícil (ni necesitamos ayuda de 
+                ningún alumno), pero es posible que nos decantemos por hacer 
+                algo más interactivo online, al estilo http://www.codeschool.com/ 
+                En ese caso, sí tendríamos trabajo de desarrollo antes incluso 
+                de tener el material producido.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>My·trip·pal</h2>
+            <p>
+                Esto sería una app muy sencilla, tanto para web como para 
+                móvil, donde un usuario que planea hacer un viaje medianamente 
+                largo en transporte (tren, avión, etc.) podría encontrar a 
+                "su media naranja" para el viaje en el sentido de alguien 
+                con quien compartas algún interés. Sería anónimo y sin datos 
+                como el sexo, por ejemplo, solo intereses, para evitar 
+                problemas. Si encuentras alguien con los mismos intereses 
+                le puedes contactar de forma anónima a través de la app y 
+                quedar en pillar asientos juntos.
+                Es uno de nuestros proyectos-bebé. 
+                Pequeño, manejable y para experimentar.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>My·route</h2>
+            <p>
+                Otro proyecto bebé, algo más grande. La idea es una app que 
+                sea algo así como una secretaria personal, pero para organizar 
+                viajes. Donde puedas tener tus viajes, con la ruta, y 
+                "attachear" info para el viaje. Pensaba en algo muy fácil de 
+                usar (como http://facilethings.com para GTD), pero con cierta 
+                potencia. Con alertas para que salgas a tiempo y esas cosas. 
+                Lo ideal (lo primero que habíamos pensado) sería poder buscar 
+                en la propia app los medios de transporte (tren + avión + bus + ...), 
+                pero evidentemente eso tiene una tela increíble y se podría 
+                empezar porque la gente se pueda organizar buscándose las rutas 
+                por otro lado.
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>CVManager</h2>
+            <p>
+            </p>
+		</div>
+		<div class="centered padded-v">
+            <h2>Ahi Voy</h2>
+            <p>
+            </p>
+		</div>
+</div>
