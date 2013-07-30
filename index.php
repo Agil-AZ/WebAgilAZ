@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
-<html>
 <head>
 	<title>Agil-AZ S.L. | Desarrollo de software a medida</title>
 	<meta 
