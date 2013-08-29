@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/daily.css">
+        <title>Agil-AZ S.L. | Daily meeting</title> 
+
+        <script language="JavaScript"> 
+            function moveTime(){ 
+                theDate = new Date() 
+                hour = theDate.getHours() 
+                minute = theDate.getMinutes() 
+                second = theDate.getSeconds() 
+
+                str_second = new String (second) 
+                if (str_second.length == 1)
+                     second = "0" + second
+                str_minute = new String (minute) 
+                if (str_minute.length == 1) 
+                     minute = "0" + minute 
+                str_hour = new String (hour) 
+                if (str_hour.length == 1) 
+                     hour = "0" + hour 
+
+                str_time = hour + " : " + minute + " : " + second 
+                document.getElementById('time').innerHTML = str_time 
+                setTimeout("moveTime()",1000) 
+            } 
+        </script>
+    </head>
+    <body onload="moveTime()"> 
+        <header>
+            <div class="center-sheet">
+                <h2 class="text-header">daily <span class="color-red">M</span><span class="color-grey">eeting</span></h2>
+                <img class="logo" src="img/logo.png"/>
+            </div>
+        </header>
+        <section>
+            <div class="center-sheet">
+                <div class="daily">
+                    <div class="box radius shadow">
+                        <div class="title-box radius shadow bg-grey">
+                            <img class="clock start-clock" src="img/clock_start.png"/>
+                            <h1 class="title float-right">Start</h1>
+                        </div>
+                        <div class="content centered">
+                            <div class="bubble right"><h2>Go!</h2></div>
+                            <div class="bubble middle"><h2>Go!</h2></div>
+                            <div class="bubble left"><h2>Go!</h2></div>
+                            <div class="questions">
+                                <div class="gradient-golden shadow">&iquest;Qu&eacute; hiciste?</div>
+                                <div class="gradient-golden shadow">&iquest;Qu&eacute; no hiciste?&iquest;Por qu&eacute;?</div>
+                                <div class="gradient-golden shadow">&iquest;Qu&eacute; har&aacute;s?</div>
+                                <div class="gradient-golden shadow">&iquest;Qu&eacute; necesitas?</div>
+                            </div>
+                            <div class="bubble-bottom bottom"><h2>&iexcl;Al turr&oacute;n!</h2></div>
+                        </div>
+                        <div class="title-box radius shadow bg-grey">
+                            <h1 class="title">End</h1>
+                            <img class="clock end-clock" src="img/clock_end.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules">
+                    <div class="box radius shadow gradient-golden">
+                        <h1 class="title-box title">Golden rules:</h1>
+                        <div class="float-left">
+                            <ol>
+                                <li>Dont be negative. <a href="http://www.youtube.com/watch?v=Ow0lr63y4Mw">Stop it!</a></li>
+                                <li>Dont walk in circles. Take it off!</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="time"> 
+                    <h1 id="time"></h1>
+                </div> 
+            </div>
+
+        </section>
+    <body>
+</html>
